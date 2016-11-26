@@ -1,0 +1,1691 @@
+﻿Log file open, 11/25/16 21:22:15
+LogInit:Display: Running engine for game: NailBound
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(143444865) SRandInit(143444865).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076080
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3195953
+LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.26-02.22.15:681][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.26-02.22.15:681][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.26-02.22.15:684][  0]LogInit: Computer: WEAK
+[2016.11.26-02.22.15:684][  0]LogInit: User: WhisperedLullaby
+[2016.11.26-02.22.15:684][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.26-02.22.15:684][  0]LogInit: High frequency timer resolution =3.117189 MHz
+[2016.11.26-02.22.15:685][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.26-02.22.15:685][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.26-02.22.15:685][  0]LogMemory: Process Physical Memory: 263.18 MB used, 263.18 MB peak
+[2016.11.26-02.22.15:685][  0]LogMemory: Process Virtual Memory: 262.62 MB used, 262.62 MB peak
+[2016.11.26-02.22.15:685][  0]LogMemory: Physical Memory: 8531.34 MB used,  7799.55 MB free, 16330.89 MB total
+[2016.11.26-02.22.15:685][  0]LogMemory: Virtual Memory: 661.46 MB used,  7799.55 MB free, 134217728.00 MB total
+[2016.11.26-02.22.15:704][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.26-02.22.16:113][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.26-02.22.16:136][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 480 Graphics' (Feature Level 11_0)
+[2016.11.26-02.22.16:136][  0]LogD3D11RHI:       8140/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.11.26-02.22.16:137][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.26-02.22.16:137][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.26-02.22.16:137][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.26-02.22.16:144][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.26-02.22.16:144][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2016.11.26-02.22.16:144][  0]LogWindows: EnumDisplayDevices:
+[2016.11.26-02.22.16:144][  0]LogWindows:    0. 'Radeon (TM) RX 480 Graphics' (P:1 D:1)
+[2016.11.26-02.22.16:144][  0]LogWindows:    1. 'Radeon (TM) RX 480 Graphics' (P:0 D:1)
+[2016.11.26-02.22.16:144][  0]LogWindows:    2. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.26-02.22.16:144][  0]LogWindows:    3. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.26-02.22.16:145][  0]LogWindows:    4. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.26-02.22.16:145][  0]LogWindows:    5. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.26-02.22.16:145][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.11.26-02.22.16:145][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 480 Graphics
+[2016.11.26-02.22.16:145][  0]LogD3D11RHI:   Driver Version: Crimson 16.9.2 (internal:21.19.137.1, unified:21.19.137.1)
+[2016.11.26-02.22.16:145][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.11.26-02.22.16:145][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.26-02.22.16:162][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.26-02.22.16:172][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2016.11.26-02.22.16:173][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Intermediate/Shaders/WorkingDirectory/5000/).
+[2016.11.26-02.22.16:173][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/WhisperedLullaby/AppData/Local/Temp/UnrealShaderWorkingDir/EA0A9F374762F9777076EE8046D70DE9/'.
+[2016.11.26-02.22.16:173][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.26-02.22.17:104][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.26-02.22.17:159][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.26-02.22.17:214][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.26-02.22.17:258][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.26-02.22.17:258][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.26-02.22.17:644][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.26-02.22.17:687][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.26-02.22.17:687][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.11.26-02.22.17:688][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.26-02.22.17:688][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.26-02.22.17:688][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.26-02.22.17:688][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.26-02.22.17:703][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.26-02.22.17:715][  0]LogDerivedDataCache: Using Local data cache path C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.26-02.22.17:893][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2016.11.26-02.22.17:898][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.005107 seconds
+[2016.11.26-02.22.17:913][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.26-02.22.17:915][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2016.11.26-02.22.18:105][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.11.26-02.22.18:147][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.11.26-02.22.18:192][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.11.26-02.22.18:192][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.11.26-02.22.18:192][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.26-02.22.18:608][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: nailbound, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3761550360
+[2016.11.26-02.22.18:680][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.26-02.22.19:373][  0]LogSlate: Using Freetype 2.6.0
+[2016.11.26-02.22.19:374][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.26-02.22.19:374][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.26-02.22.19:479][  0]LogMoviePlayer: Initializing movie player
+[2016.11.26-02.22.19:534][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.26-02.22.19:548][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Movies/Default_Startup.mp4
+[2016.11.26-02.22.19:701][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.26-02.22.19:739][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.26-02.22.19:879][  0]SourceControl: Info Source control is disabled
+[2016.11.26-02.22.19:879][  0]SourceControl: Info Source control is disabled
+[2016.11.26-02.22.19:922][  0]SourceControl: Info Source control is disabled
+[2016.11.26-02.22.20:534][  0]LogUObjectArray: 33496 objects as part of root set at end of initial load.
+[2016.11.26-02.22.20:534][  0]LogUObjectAllocator: 7417784 out of 0 bytes used by permanent object pool.
+[2016.11.26-02.22.20:534][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.26-02.22.20:631][  0]LogEngine: Initializing Engine...
+[2016.11.26-02.22.20:632][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.26-02.22.20:755][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.26-02.22.20:768][  0]LogInit: FAudioDevice initialized.
+[2016.11.26-02.22.20:785][  0]LogInit: Texture streaming: Enabled
+[2016.11.26-02.22.20:796][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.26-02.22.21:109][  0]LogInit:Display: Game Engine Initialized.
+[2016.11.26-02.22.21:253][  0]LogInit:Display: Starting Game.
+[2016.11.26-02.22.21:253][  0]LogNet: Browse: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap?Name=Player
+[2016.11.26-02.22.21:253][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap?Name=Player
+[2016.11.26-02.22.21:268][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.26-02.22.21:268][  0]LogMemory: Process Physical Memory: 618.92 MB used, 646.75 MB peak
+[2016.11.26-02.22.21:268][  0]LogMemory: Process Virtual Memory: 716.04 MB used, 716.05 MB peak
+[2016.11.26-02.22.21:268][  0]LogMemory: Physical Memory: 8805.49 MB used,  7525.40 MB free, 16330.89 MB total
+[2016.11.26-02.22.21:269][  0]LogMemory: Virtual Memory: 1335.77 MB used,  7525.40 MB free, 134217728.00 MB total
+[2016.11.26-02.22.21:269][  0]LogMemory: 
+[2016.11.26-02.22.21:269][  0]Allocator Stats for TBB: (not implemented)
+[2016.11.26-02.22.21:462][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:462][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by anglebar_Sprite
+[2016.11.26-02.22.21:462][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:462][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:463][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by anglebar_Sprite
+[2016.11.26-02.22.21:463][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:463][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:463][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
+[2016.11.26-02.22.21:463][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:463][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:463][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
+[2016.11.26-02.22.21:463][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:464][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:464][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by gunbarrel_Sprite
+[2016.11.26-02.22.21:464][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:464][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:464][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by gunbarrel_Sprite
+[2016.11.26-02.22.21:464][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:479][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:479][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by jonaldtrumpsonsprite_Sprite
+[2016.11.26-02.22.21:479][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:479][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:479][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by jonaldtrumpsonsprite_Sprite
+[2016.11.26-02.22.21:479][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:480][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:480][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by secondary_Sprite
+[2016.11.26-02.22.21:480][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:480][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:480][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by secondary_Sprite
+[2016.11.26-02.22.21:480][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:481][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:481][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
+[2016.11.26-02.22.21:481][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.26-02.22.21:481][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:481][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
+[2016.11.26-02.22.21:481][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.26-02.22.21:637][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2016.11.26-02.22.21:637][  0]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2016.11.26-02.22.21:643][  0]LogWorld: Bringing World /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2016.11.25-21.22.21
+[2016.11.26-02.22.21:644][  0]LogWorld: Bringing up level for play took: 0.004888
+[2016.11.26-02.22.21:645][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.26-02.22.21:645][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.26-02.22.21:645][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.26-02.22.21:647][  0]LogBlueprintUserMessages: [2DSideScrollerGameMode_C_0] 1
+[2016.11.26-02.22.21:647][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.26-02.22.21:647][  0]LogLoad: Took 0.394040 seconds to LoadMap(/Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap)
+[2016.11.26-02.22.21:991][  0]LogLoad: (Engine Initialization) Total time: 7.49 seconds
+[2016.11.26-02.22.21:991][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2016.11.26-02.22.21:991][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.26-02.22.21:991][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.26-02.22.22:008][  0]LogOcInput: OculusInput pre-init called
+[2016.11.26-02.22.22:078][  1]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:078][  1]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:110][  2]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
+[2016.11.26-02.22.22:140][  2]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:140][  2]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:156][  3]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:156][  3]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:172][  4]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:172][  4]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:188][  5]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:188][  5]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:204][  6]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:204][  6]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:220][  7]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:220][  7]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:237][  8]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:237][  8]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:253][  9]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:253][  9]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:269][ 10]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:269][ 10]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:285][ 11]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:285][ 11]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:301][ 12]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:302][ 12]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:317][ 13]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:317][ 13]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:333][ 14]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:333][ 14]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:349][ 15]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:350][ 15]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:365][ 16]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:366][ 16]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:382][ 17]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:382][ 17]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:398][ 18]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:398][ 18]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:414][ 19]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:414][ 19]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:430][ 20]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:431][ 20]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:446][ 21]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:446][ 21]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:463][ 22]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:463][ 22]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:479][ 23]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:479][ 23]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:495][ 24]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:495][ 24]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:511][ 25]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:511][ 25]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:527][ 26]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:527][ 26]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:543][ 27]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:543][ 27]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:560][ 28]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:560][ 28]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:575][ 29]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:576][ 29]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:591][ 30]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:592][ 30]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:608][ 31]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:608][ 31]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:624][ 32]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:624][ 32]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:640][ 33]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:640][ 33]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:656][ 34]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:656][ 34]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:672][ 35]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:673][ 35]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:688][ 36]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:689][ 36]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:705][ 37]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:705][ 37]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:721][ 38]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:721][ 38]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:737][ 39]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:737][ 39]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:753][ 40]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:753][ 40]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:769][ 41]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:769][ 41]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:785][ 42]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:785][ 42]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:801][ 43]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:802][ 43]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:817][ 44]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:818][ 44]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:833][ 45]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:834][ 45]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:849][ 46]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:850][ 46]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:866][ 47]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:866][ 47]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:882][ 48]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:882][ 48]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:898][ 49]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:898][ 49]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:914][ 50]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:914][ 50]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:930][ 51]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:930][ 51]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:947][ 52]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:947][ 52]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:963][ 53]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:963][ 53]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:979][ 54]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:979][ 54]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.22:995][ 55]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.22:995][ 55]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:011][ 56]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:011][ 56]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:027][ 57]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:028][ 57]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:043][ 58]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:043][ 58]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:059][ 59]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:060][ 59]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:075][ 60]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:076][ 60]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:092][ 61]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:092][ 61]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:108][ 62]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:108][ 62]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:124][ 63]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:124][ 63]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:140][ 64]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:140][ 64]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:156][ 65]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:156][ 65]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:172][ 66]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:173][ 66]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:188][ 67]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:188][ 67]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:204][ 68]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:205][ 68]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:221][ 69]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:221][ 69]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:237][ 70]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:237][ 70]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:253][ 71]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:253][ 71]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:269][ 72]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:269][ 72]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:285][ 73]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:286][ 73]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:301][ 74]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:302][ 74]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:317][ 75]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:318][ 75]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:333][ 76]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:334][ 76]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:349][ 77]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:350][ 77]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:366][ 78]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:366][ 78]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:382][ 79]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:382][ 79]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:398][ 80]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:398][ 80]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:414][ 81]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:415][ 81]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:430][ 82]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:431][ 82]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:446][ 83]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:446][ 83]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:463][ 84]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:463][ 84]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:478][ 85]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:479][ 85]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:495][ 86]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:495][ 86]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:511][ 87]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:511][ 87]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:527][ 88]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:527][ 88]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:543][ 89]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:544][ 89]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:559][ 90]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:560][ 90]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:575][ 91]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:576][ 91]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:592][ 92]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:592][ 92]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:608][ 93]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:608][ 93]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:624][ 94]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:624][ 94]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:640][ 95]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:640][ 95]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:656][ 96]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:657][ 96]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:672][ 97]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:673][ 97]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:688][ 98]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:689][ 98]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:704][ 99]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:705][ 99]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:721][100]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:721][100]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:737][101]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:737][101]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:753][102]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:753][102]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:769][103]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:769][103]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:785][104]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:786][104]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:801][105]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:802][105]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:818][106]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:818][106]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:834][107]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:834][107]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:850][108]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:850][108]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:866][109]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:866][109]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:882][110]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:882][110]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:898][111]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:898][111]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:914][112]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:914][112]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:930][113]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:931][113]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:948][114]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:948][114]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:962][115]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:963][115]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:978][116]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:979][116]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.23:995][117]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.23:995][117]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:011][118]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:011][118]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:027][119]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:027][119]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:043][120]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:044][120]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:060][121]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:060][121]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:075][122]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:076][122]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:091][123]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:092][123]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:108][124]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:108][124]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:124][125]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:124][125]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:140][126]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:140][126]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:156][127]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:156][127]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:172][128]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:173][128]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:189][129]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:189][129]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:204][130]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:205][130]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:221][131]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:221][131]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:237][132]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:237][132]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:253][133]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:253][133]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:269][134]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:269][134]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:285][135]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:285][135]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:301][136]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:302][136]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:317][137]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:318][137]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:333][138]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:334][138]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:350][139]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:350][139]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:366][140]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:366][140]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:382][141]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:382][141]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:398][142]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:398][142]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:414][143]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:415][143]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:430][144]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:431][144]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:447][145]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:447][145]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:463][146]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:463][146]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:479][147]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:479][147]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:495][148]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:495][148]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:511][149]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:511][149]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:527][150]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:527][150]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:543][151]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:543][151]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:559][152]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:560][152]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:575][153]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:576][153]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:591][154]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:592][154]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:608][155]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:608][155]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:624][156]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:624][156]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:640][157]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:640][157]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:656][158]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:657][158]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:672][159]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:672][159]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:688][160]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:688][160]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:704][161]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:705][161]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:721][162]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:721][162]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:737][163]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:737][163]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:753][164]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:753][164]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:769][165]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:769][165]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:785][166]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:786][166]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:801][167]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:802][167]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:818][168]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:818][168]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:834][169]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:834][169]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:850][170]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:850][170]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:866][171]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:866][171]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:882][172]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:882][172]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:898][173]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:898][173]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:914][174]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:915][174]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:930][175]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:930][175]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:947][176]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:947][176]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:962][177]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:963][177]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:979][178]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:979][178]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.24:995][179]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.24:995][179]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:011][180]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:011][180]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:027][181]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:028][181]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:043][182]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:044][182]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:059][183]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:060][183]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:075][184]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:076][184]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:092][185]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:092][185]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:108][186]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:108][186]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:124][187]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:124][187]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:140][188]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:141][188]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:156][189]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:156][189]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:172][190]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:172][190]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:188][191]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:188][191]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:205][192]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:205][192]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:221][193]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:221][193]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:237][194]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:237][194]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:253][195]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:253][195]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:269][196]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:269][196]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:285][197]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:286][197]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:301][198]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:302][198]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:317][199]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:318][199]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:333][200]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:334][200]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:350][201]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:350][201]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:366][202]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:366][202]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:382][203]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:382][203]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:398][204]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:398][204]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:414][205]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:414][205]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:430][206]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:430][206]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:446][207]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:447][207]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:463][208]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:463][208]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:479][209]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:479][209]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:495][210]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:495][210]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:511][211]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:511][211]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:527][212]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:527][212]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:543][213]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:544][213]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:559][214]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:559][214]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:575][215]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:576][215]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:592][216]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:592][216]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:608][217]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:608][217]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:624][218]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:624][218]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:640][219]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:640][219]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:656][220]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:656][220]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:672][221]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:672][221]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:688][222]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:689][222]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:704][223]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:705][223]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:721][224]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:721][224]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:737][225]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:737][225]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:753][226]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:753][226]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:769][227]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:769][227]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:785][228]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:786][228]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:801][229]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:801][229]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:817][230]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:818][230]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:833][231]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:834][231]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:850][232]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:850][232]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:866][233]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:866][233]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:882][234]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:882][234]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:898][235]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:898][235]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:914][236]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:915][236]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:930][237]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:930][237]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:946][238]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:947][238]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:963][239]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:963][239]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:979][240]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:979][240]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.25:995][241]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.25:995][241]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:011][242]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:011][242]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:027][243]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:027][243]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:043][244]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:044][244]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:059][245]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:059][245]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:076][246]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:076][246]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:092][247]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:092][247]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:108][248]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:108][248]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:124][249]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:124][249]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:140][250]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:140][250]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:156][251]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:156][251]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:172][252]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:173][252]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:189][253]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:189][253]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:205][254]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:205][254]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:221][255]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:221][255]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:237][256]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:237][256]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:253][257]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:253][257]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:269][258]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:269][258]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:285][259]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:286][259]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:301][260]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:302][260]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:317][261]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:318][261]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:334][262]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:334][262]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:350][263]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:350][263]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:366][264]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:366][264]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:382][265]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:382][265]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:398][266]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:398][266]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:414][267]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:414][267]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:431][268]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:431][268]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:446][269]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:447][269]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:462][270]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:463][270]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:479][271]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:479][271]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:495][272]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:495][272]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:511][273]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:511][273]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:527][274]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:527][274]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:543][275]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:544][275]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:560][276]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:560][276]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:575][277]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:576][277]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:592][278]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:592][278]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:608][279]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:608][279]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:624][280]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:624][280]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:640][281]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:640][281]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:656][282]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:656][282]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:673][283]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:673][283]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:689][284]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:690][284]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:705][285]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:705][285]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:721][286]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:721][286]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:737][287]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:737][287]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:753][288]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:753][288]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:769][289]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:769][289]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:785][290]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:785][290]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:801][291]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:802][291]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:817][292]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:818][292]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:833][293]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:834][293]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:850][294]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:850][294]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:866][295]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:866][295]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:882][296]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:882][296]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:898][297]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:898][297]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:914][298]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:914][298]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:930][299]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:930][299]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:947][300]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:947][300]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:963][301]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:963][301]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:979][302]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:979][302]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.26:995][303]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.26:995][303]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:011][304]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:011][304]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:027][305]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:028][305]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:043][306]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:043][306]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:059][307]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:059][307]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:076][308]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:076][308]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:091][309]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:092][309]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:108][310]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:108][310]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:124][311]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:124][311]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:140][312]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:140][312]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:156][313]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:156][313]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:172][314]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:173][314]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:189][315]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:189][315]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:205][316]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:205][316]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:221][317]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:221][317]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:237][318]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:237][318]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:253][319]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:253][319]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:269][320]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:269][320]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:285][321]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:286][321]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:301][322]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:301][322]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:318][323]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:318][323]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:334][324]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:334][324]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:350][325]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:350][325]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:366][326]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:366][326]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:382][327]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:383][327]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:398][328]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:399][328]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:414][329]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:415][329]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:430][330]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:431][330]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:447][331]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:447][331]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:463][332]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:463][332]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:479][333]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:479][333]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:495][334]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:495][334]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:511][335]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:511][335]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:527][336]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:527][336]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:543][337]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:543][337]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:559][338]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:560][338]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:576][339]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:576][339]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:592][340]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:592][340]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:608][341]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:608][341]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:624][342]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:624][342]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:640][343]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:640][343]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:656][344]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:657][344]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:672][345]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:673][345]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:689][346]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:689][346]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:705][347]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:705][347]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:721][348]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:721][348]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:737][349]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:737][349]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:753][350]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:753][350]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:769][351]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:769][351]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:785][352]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:786][352]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:802][353]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:802][353]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:817][354]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:817][354]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:834][355]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:834][355]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:850][356]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:850][356]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:866][357]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:866][357]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:882][358]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:882][358]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:898][359]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:898][359]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:914][360]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:914][360]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:931][361]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:931][361]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:946][362]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:947][362]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:963][363]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:963][363]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:979][364]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:979][364]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.27:995][365]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.27:995][365]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:011][366]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:011][366]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:027][367]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:027][367]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:043][368]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:044][368]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:060][369]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:060][369]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:076][370]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:076][370]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:092][371]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:092][371]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:108][372]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:108][372]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:124][373]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:124][373]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:140][374]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:140][374]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:156][375]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:156][375]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:172][376]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:173][376]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:189][377]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:189][377]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:205][378]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:205][378]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:221][379]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:221][379]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:237][380]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:237][380]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:253][381]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:253][381]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:269][382]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:269][382]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:285][383]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:285][383]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:302][384]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:302][384]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:317][385]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:318][385]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:333][386]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:334][386]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:350][387]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:350][387]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:366][388]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:366][388]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:382][389]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:382][389]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:398][390]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:399][390]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:414][391]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:414][391]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:430][392]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:431][392]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:447][393]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:447][393]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:463][394]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:463][394]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:479][395]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:479][395]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:495][396]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:495][396]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:511][397]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:511][397]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:527][398]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:527][398]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:543][399]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:544][399]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:560][400]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:561][400]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:575][401]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:576][401]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:592][402]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:592][402]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:608][403]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:608][403]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:624][404]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:624][404]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:640][405]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:640][405]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:656][406]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:656][406]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:672][407]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:672][407]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:689][408]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:689][408]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:705][409]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:705][409]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:721][410]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:721][410]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:737][411]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:737][411]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:753][412]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:753][412]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:769][413]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:769][413]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:785][414]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:785][414]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:801][415]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:802][415]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:818][416]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:818][416]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:834][417]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:834][417]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:850][418]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:850][418]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:866][419]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:866][419]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:882][420]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:882][420]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:898][421]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:898][421]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:914][422]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:915][422]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:930][423]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:931][423]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:946][424]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:947][424]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:962][425]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:963][425]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:979][426]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:979][426]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.28:995][427]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.28:995][427]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:011][428]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:011][428]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:027][429]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:027][429]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:044][430]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:044][430]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:059][431]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:060][431]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:076][432]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:076][432]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:092][433]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:092][433]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:108][434]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:108][434]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:124][435]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:124][435]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:140][436]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:140][436]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:156][437]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:156][437]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:172][438]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:173][438]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:188][439]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:188][439]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:204][440]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:205][440]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:221][441]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:221][441]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:237][442]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:237][442]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:253][443]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:253][443]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:269][444]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:269][444]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:285][445]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:286][445]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:302][446]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:302][446]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:318][447]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:318][447]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:334][448]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:334][448]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:350][449]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:350][449]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:366][450]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:366][450]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:382][451]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:382][451]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:398][452]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:398][452]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:414][453]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:414][453]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:430][454]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:431][454]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:447][455]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:447][455]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:463][456]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:463][456]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:479][457]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:479][457]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:495][458]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:495][458]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:511][459]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:511][459]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:527][460]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:527][460]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:544][461]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:544][461]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:560][462]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:560][462]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:576][463]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:576][463]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:592][464]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:592][464]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:608][465]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:608][465]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:624][466]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:624][466]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:640][467]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:640][467]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:656][468]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:657][468]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:673][469]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:673][469]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:689][470]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:689][470]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:705][471]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:705][471]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:721][472]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:721][472]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:737][473]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:737][473]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:753][474]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:753][474]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:769][475]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:770][475]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:785][476]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:785][476]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:801][477]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:801][477]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:818][478]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:818][478]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:834][479]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:834][479]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:850][480]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:850][480]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:866][481]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:866][481]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:882][482]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:882][482]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:898][483]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:899][483]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:915][484]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:915][484]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:931][485]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:931][485]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:946][486]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:947][486]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:963][487]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:963][487]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:979][488]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:979][488]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.29:995][489]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.29:995][489]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:011][490]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:011][490]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:027][491]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:028][491]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:043][492]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:044][492]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:060][493]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:060][493]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:076][494]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:076][494]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:092][495]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:092][495]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:108][496]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:108][496]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:124][497]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:124][497]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:140][498]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:140][498]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:156][499]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:156][499]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:172][500]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:173][500]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:188][501]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:189][501]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:205][502]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:205][502]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:221][503]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:221][503]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:237][504]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:237][504]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:253][505]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:253][505]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:269][506]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:269][506]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:285][507]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:286][507]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:301][508]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:302][508]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:317][509]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:317][509]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:334][510]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:334][510]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:350][511]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:350][511]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:366][512]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:366][512]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:382][513]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:382][513]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:398][514]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:398][514]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:414][515]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:414][515]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:430][516]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:431][516]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:446][517]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:447][517]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:463][518]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:463][518]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:479][519]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:479][519]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:495][520]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:495][520]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:511][521]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:511][521]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:527][522]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:527][522]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:543][523]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:544][523]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:559][524]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:560][524]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:575][525]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:576][525]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:592][526]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:592][526]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:608][527]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:608][527]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:624][528]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:624][528]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:640][529]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:640][529]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:656][530]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:656][530]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:672][531]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:672][531]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:688][532]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:689][532]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:705][533]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:705][533]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:721][534]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:721][534]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:737][535]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:737][535]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:753][536]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:753][536]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:769][537]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:769][537]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:786][538]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:786][538]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:801][539]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:802][539]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:817][540]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:818][540]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:834][541]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:834][541]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:850][542]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:850][542]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:866][543]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:866][543]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:882][544]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:882][544]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:898][545]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:898][545]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:914][546]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:914][546]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:930][547]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:930][547]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:947][548]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:947][548]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:963][549]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:963][549]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:979][550]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:979][550]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.30:995][551]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.30:995][551]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:011][552]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:011][552]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:027][553]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:027][553]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:043][554]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:044][554]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:061][555]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:061][555]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:076][556]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:076][556]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:092][557]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:092][557]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:108][558]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:108][558]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:124][559]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:124][559]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:140][560]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:140][560]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:156][561]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:157][561]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:172][562]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:173][562]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:188][563]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:188][563]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:204][564]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:205][564]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:221][565]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:221][565]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:237][566]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:237][566]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:253][567]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:253][567]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:269][568]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:269][568]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:285][569]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:285][569]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:301][570]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:302][570]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:318][571]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:318][571]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:334][572]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:334][572]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:350][573]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:350][573]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:366][574]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:366][574]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:382][575]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:382][575]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:398][576]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:398][576]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:414][577]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:414][577]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:431][578]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:431][578]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:447][579]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:447][579]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:462][580]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:463][580]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:479][581]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:479][581]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:495][582]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:495][582]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:511][583]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:511][583]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:527][584]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:527][584]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:544][585]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:544][585]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:560][586]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:560][586]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:576][587]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:576][587]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:592][588]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:592][588]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:608][589]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:608][589]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:624][590]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:624][590]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:641][591]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:641][591]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:656][592]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:657][592]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:672][593]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:672][593]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:688][594]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:689][594]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:705][595]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:705][595]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:721][596]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:721][596]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:737][597]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:737][597]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:753][598]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:753][598]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:769][599]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:769][599]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:785][600]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:786][600]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:801][601]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:802][601]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:818][602]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:818][602]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:834][603]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:834][603]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:850][604]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:850][604]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:866][605]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:866][605]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:882][606]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:882][606]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:898][607]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:899][607]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:914][608]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:914][608]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:931][609]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:931][609]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:947][610]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:947][610]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:963][611]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:963][611]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:979][612]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:979][612]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.31:995][613]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.31:995][613]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:011][614]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:011][614]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:027][615]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:027][615]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:043][616]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:044][616]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:059][617]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:060][617]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:076][618]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:076][618]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:092][619]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:092][619]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:108][620]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:108][620]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:124][621]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:124][621]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:140][622]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:140][622]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:156][623]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:157][623]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:173][624]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:173][624]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:188][625]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:189][625]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:205][626]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:205][626]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:221][627]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:221][627]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:237][628]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:237][628]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:253][629]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:253][629]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:269][630]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:269][630]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:285][631]LogBlueprintUserMessages: [MyPlayerController_C_0] 0
+[2016.11.26-02.22.32:285][631]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] 0.0
+[2016.11.26-02.22.32:395][632]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.26-02.22.32:398][632]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.26-02.22.32:399][632]LogEngine: All Windows Closed
+[2016.11.26-02.22.32:399][632]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.11.26-02.22.32:399][633]LogMoviePlayer: Shutting down movie player
+[2016.11.26-02.22.32:640][633]LogExit: Preparing to exit.
+[2016.11.26-02.22.32:866][633]LogExit: Game engine shut down
+[2016.11.26-02.22.32:905][633]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.26-02.22.32:905][633]LogExit: Object subsystem successfully closed.
+[2016.11.26-02.22.32:923][633]LogD3D11RHI: Shutdown
+[2016.11.26-02.22.32:923][633]LogD3D11RHI: CleanupD3DDevice
+[2016.11.26-02.22.32:987][633]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (125)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module SequenceRecorder (124)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module AutomationController (123)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module AutomationWorker (122)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module GameplayDebugger (121)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module AITestSuite (120)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module AIModule (119)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (118)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (117)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module Media (116)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (115)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module CharacterAI (114)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module SessionServices (113)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (112)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (111)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module GeometryCache (110)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module Niagara (109)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (108)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module PortalServices (107)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module PortalRpc (106)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module MessagingRpc (105)
+[2016.11.26-02.22.33:006][633]LogModuleManager: Shutting down and abandoning module ProfilerService (104)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module TaskGraph (103)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module SlateRemote (102)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module SteamVRController (101)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module SteamVR (100)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (99)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module OculusLibrary (98)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module OculusInput (97)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (96)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (95)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module CableComponent (94)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (93)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module HTML5Networking (91)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.11.26-02.22.33:113][633]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2016.11.26-02.22.33:114][633]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (87)
+[2016.11.26-02.22.33:114][633]LogModuleManager: Shutting down and abandoning module UObjectPlugin (86)
+[2016.11.26-02.22.33:114][633]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (85)
+[2016.11.26-02.22.33:114][633]LogModuleManager: Shutting down and abandoning module SourceControl (84)
+[2016.11.26-02.22.33:114][633]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (83)
+[2016.11.26-02.22.33:114][633]LogModuleManager: Shutting down and abandoning module UdpMessaging (82)
+[2016.11.26-02.22.33:214][633]LogModuleManager: Shutting down and abandoning module TcpMessaging (81)
+[2016.11.26-02.22.33:707][633]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (80)
+[2016.11.26-02.22.33:707][633]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2016.11.26-02.22.33:707][633]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2016.11.26-02.22.33:707][633]LogModuleManager: Shutting down and abandoning module WmfMedia (77)
+[2016.11.26-02.22.33:707][633]LogModuleManager: Shutting down and abandoning module MediaAssets (76)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (75)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (74)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module VREditor (73)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (72)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (71)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module FunctionalTesting (70)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (69)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (67)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module MessageLog (66)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module AssetTools (65)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module UMGEditor (64)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module UMG (63)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module SlateReflector (62)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module Slate (61)
+[2016.11.26-02.22.33:708][633]LogModuleManager: Shutting down and abandoning module EditorStyle (60)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module Messaging (59)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (58)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (57)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module XAudio2 (56)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module Networking (54)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module Core (53)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module KismetCompiler (52)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module PhysXFormats (51)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (50)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (49)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (48)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module PropertyEditor (47)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module MeshUtilities (46)
+[2016.11.26-02.22.33:715][633]LogModuleManager: Shutting down and abandoning module AssetRegistry (45)
+[2016.11.26-02.22.33:716][633]LogModuleManager: Shutting down and abandoning module DerivedDataCache (44)
+[2016.11.26-02.22.34:217][633]LogDerivedDataCache: Shutdown
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (43)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (36)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module ImageWrapper (35)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (34)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (33)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (32)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (31)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (30)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.11.26-02.22.34:217][633]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.26-02.22.34:217][633]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.26-02.22.34:218][633]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.26-02.22.34:219][633]LogExit: Exiting.
+[2016.11.26-02.22.34:221][633]Log file closed, 11/25/16 21:22:34
