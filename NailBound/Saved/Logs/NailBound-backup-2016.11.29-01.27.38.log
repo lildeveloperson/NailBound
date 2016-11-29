@@ -1,0 +1,1350 @@
+﻿Log file open, 11/29/16 01:09:36
+LogInit:Display: Running engine for game: NailBound
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1766913745) SRandInit(1766913745).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.072784
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3195953
+LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.29-06.09.37:250][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.29-06.09.37:250][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.29-06.09.37:259][  0]LogInit: Computer: WEAK
+[2016.11.29-06.09.37:259][  0]LogInit: User: WhisperedLullaby
+[2016.11.29-06.09.37:259][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.29-06.09.37:259][  0]LogInit: High frequency timer resolution =3.117188 MHz
+[2016.11.29-06.09.37:259][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.29-06.09.37:259][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.29-06.09.37:259][  0]LogMemory: Process Physical Memory: 265.05 MB used, 265.05 MB peak
+[2016.11.29-06.09.37:259][  0]LogMemory: Process Virtual Memory: 262.66 MB used, 262.66 MB peak
+[2016.11.29-06.09.37:259][  0]LogMemory: Physical Memory: 6979.19 MB used,  9351.70 MB free, 16330.89 MB total
+[2016.11.29-06.09.37:259][  0]LogMemory: Virtual Memory: 661.46 MB used,  9351.70 MB free, 134217728.00 MB total
+[2016.11.29-06.09.37:279][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.29-06.09.37:845][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.29-06.09.37:868][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 480 Graphics' (Feature Level 11_0)
+[2016.11.29-06.09.37:868][  0]LogD3D11RHI:       8140/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.11.29-06.09.37:869][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.29-06.09.37:869][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.29-06.09.37:869][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.29-06.09.37:874][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.29-06.09.37:874][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2016.11.29-06.09.37:874][  0]LogWindows: EnumDisplayDevices:
+[2016.11.29-06.09.37:874][  0]LogWindows:    0. 'Radeon (TM) RX 480 Graphics' (P:1 D:1)
+[2016.11.29-06.09.37:874][  0]LogWindows:    1. 'Radeon (TM) RX 480 Graphics' (P:0 D:1)
+[2016.11.29-06.09.37:875][  0]LogWindows:    2. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.29-06.09.37:875][  0]LogWindows:    3. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.29-06.09.37:875][  0]LogWindows:    4. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.29-06.09.37:875][  0]LogWindows:    5. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.29-06.09.37:875][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.11.29-06.09.37:875][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 480 Graphics
+[2016.11.29-06.09.37:875][  0]LogD3D11RHI:   Driver Version: Crimson 16.9.2 (internal:21.19.137.1, unified:21.19.137.1)
+[2016.11.29-06.09.37:875][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.11.29-06.09.37:875][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.29-06.09.37:890][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.29-06.09.37:899][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2016.11.29-06.09.37:900][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Intermediate/Shaders/WorkingDirectory/7372/).
+[2016.11.29-06.09.37:900][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/WhisperedLullaby/AppData/Local/Temp/UnrealShaderWorkingDir/83D0EDCA479B01EA001F0C918C33DAB0/'.
+[2016.11.29-06.09.37:900][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.29-06.09.38:849][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.29-06.09.38:906][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.11.29-06.09.38:962][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.11.29-06.09.39:020][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.11.29-06.09.39:074][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.11.29-06.09.39:128][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.29-06.09.39:184][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.29-06.09.39:236][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.29-06.09.39:280][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.29-06.09.39:332][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.29-06.09.39:385][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.29-06.09.39:437][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.29-06.09.39:489][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.29-06.09.39:547][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.29-06.09.39:600][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.29-06.09.39:704][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.29-06.09.39:704][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.29-06.09.39:743][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.29-06.09.39:827][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.29-06.09.39:862][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.29-06.09.39:915][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.29-06.09.39:968][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.29-06.09.40:021][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.29-06.09.40:075][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.29-06.09.40:075][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.29-06.09.40:474][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.29-06.09.40:525][  0]LogDerivedDataCache: Loaded boot cache 0.05s 61MB C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.29-06.09.40:525][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.11.29-06.09.40:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.29-06.09.40:525][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.29-06.09.40:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.29-06.09.40:525][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.29-06.09.40:541][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.29-06.09.40:552][  0]LogDerivedDataCache: Using Local data cache path C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.29-06.09.40:730][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.29-06.09.40:732][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.29-06.09.40:924][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.11.29-06.09.40:967][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.11.29-06.09.41:020][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.11.29-06.09.41:020][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.11.29-06.09.41:020][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.29-06.09.41:465][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: nailbound, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3761550360
+[2016.11.29-06.09.41:518][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2016.11.29-06.09.41:572][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.029717 seconds
+[2016.11.29-06.09.41:577][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.11.29-06.09.41:577][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2016.11.29-06.09.41:577][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.29-06.09.41:643][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.29-06.09.42:500][  0]LogSlate: Using Freetype 2.6.0
+[2016.11.29-06.09.42:501][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.29-06.09.42:501][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.29-06.09.43:219][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.29-06.09.43:258][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.29-06.09.43:705][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.29-06.09.44:088][  0]SourceControl: Info Source control is disabled
+[2016.11.29-06.09.46:143][  0]LogEngine: Initializing Engine...
+[2016.11.29-06.09.46:144][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.29-06.09.46:391][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.29-06.09.46:413][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.29-06.09.46:427][  0]LogInit: FAudioDevice initialized.
+[2016.11.29-06.09.46:455][  0]LogDerivedDataCache: Saved boot cache 0.03s 61MB C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.29-06.09.46:461][  0]LogInit: Texture streaming: Enabled
+[2016.11.29-06.09.46:662][  0]LogInit: Transaction tracking system initialized
+[2016.11.29-06.09.47:017][  0]BlueprintLog: New page: Editor Load
+[2016.11.29-06.09.47:927][  0]LocalizationService: Info Localization service is disabled
+[2016.11.29-06.09.48:607][  0]LogConsoleResponse:Display: 
+[2016.11.29-06.09.48:733][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.29-06.09.48:733][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.29-06.09.49:659][  0]LogFileCache: Scanning file cache for directory 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/' took 0.02s
+[2016.11.29-06.09.49:925][  0]Cmd: MAP LOAD FILE="../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Maps/mainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.29-06.09.49:925][  0]LightingResults: New page: Lighting Build
+[2016.11.29-06.09.49:966][  0]MapCheck: New page: Map Check
+[2016.11.29-06.09.49:966][  0]LightingResults: New page: Lighting Build
+[2016.11.29-06.09.50:014][  0]LogAIModule: Creating AISystem for world mainMenuMap
+[2016.11.29-06.09.50:015][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.29-06.09.50:015][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.29-06.09.50:047][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.778ms to complete.
+[2016.11.29-06.09.50:047][  0]LogFileHelpers: Loading map 'mainMenuMap' took 0.122
+[2016.11.29-06.09.50:199][  0]LogCollectionManager: Loaded 0 collections in 0.001287 seconds
+[2016.11.29-06.09.50:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Collections/' took 0.01s
+[2016.11.29-06.09.50:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Developers/WhisperedLullaby/Collections/' took 0.01s
+[2016.11.29-06.09.50:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Collections/' took 0.01s
+[2016.11.29-06.09.50:284][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.29-06.09.50:293][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2190 classes and 428 folders.
+[2016.11.29-06.09.50:339][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.29-06.09.50:339][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.29-06.09.50:340][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2016.11.29-06.09.50:404][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.29-06.09.50:436][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.11.29-06.09.50:480][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.29-06.09.50:549][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.29-06.09.51:541][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2016.11.29-06.09.51:562][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.29-06.09.51:780][  0]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.NailBound
+
+[2016.11.29-06.09.51:780][  0]LogTemp:Display: CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2016.11.29-06.09.51:780][  0]LogTemp:Display: Initial Dir: C:\Program Files (x86)\Epic Games\4.14
+
+[2016.11.29-06.09.51:780][  0]LogTemp:Display: Env CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2016.11.29-06.09.51:780][  0]LogTemp:Display: BranchPath = WEAK/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = WEAK/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries
+
+[2016.11.29-06.09.51:780][  0]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\WhisperedLullaby\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2016.11.29-06.09.51:780][  0]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2016.11.29-06.09.51:780][  0]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2016.11.29-06.09.51:780][  0]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2016.11.29-06.09.51:780][  0]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2016.11.29-06.09.51:780][  0]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2016.11.29-06.09.51:832][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.29-06.09.51:833][  0]LogLoad: (Engine Initialization) Total time: 15.79 seconds
+[2016.11.29-06.09.51:833][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2016.11.29-06.09.51:833][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.29-06.09.51:833][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.29-06.09.52:172][  0]LogOcInput: OculusInput pre-init called
+[2016.11.29-06.09.52:203][  0]SourceControl: Info On branch master
+[2016.11.29-06.09.52:203][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.09.52:203][  0]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.09.52:203][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.09.52:203][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.09.52:203][  0]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.09.52:203][  0]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.09.52:203][  0]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.09.52:203][  0]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.09.52:203][  0]SourceControl: Info Untracked files:
+[2016.11.29-06.09.52:203][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.09.52:203][  0]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.09.52:203][  0]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.09.52:203][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.11.29-06.09.52:204][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.29-06.09.52:353][  0]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:2).
+[2016.11.29-06.09.52:505][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/' took 0.32s
+[2016.11.29-06.09.52:520][  1]LogAssetRegistry: Asset discovery search completed in 11.0225 seconds
+[2016.11.29-06.09.52:520][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.11.29-06.09.52:520][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2016.11.29-06.10.27:476][961]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6coVg.png)
+[2016.11.29-06.10.27:480][961]LogTexture:Display: Building textures: eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6coVg (AutoDXT)
+[2016.11.29-06.10.32:567][383]LogTexture:Display: Building textures: eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6coVg (BGRA8)
+[2016.11.29-06.10.36:967][896]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.10.36:968][896]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.10.36:968][896]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.10.36:968][896]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.10.59:201][559]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.10.59:201][559]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/gunbarrel_Sprite.uasset.
+[2016.11.29-06.10.59:201][559]LoadErrors:Error: Error /Game/2DSideScroller/Sprites/gunbarrel_Sprite : Can't find file for asset. /Paper2D/TranslucentUnlitSpriteMaterial
+[2016.11.29-06.10.59:202][559]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.10.59:202][559]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/gunbarrel_Sprite.uasset.
+[2016.11.29-06.10.59:202][559]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.10.59:202][559]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/rotator_Sprite.uasset.
+[2016.11.29-06.10.59:202][559]LoadErrors:Error: Error /Game/2DSideScroller/Sprites/rotator_Sprite : Can't find file for asset. /Paper2D/TranslucentUnlitSpriteMaterial
+[2016.11.29-06.10.59:203][559]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.10.59:203][559]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/rotator_Sprite.uasset.
+[2016.11.29-06.10.59:229][559]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.10.59:229][559]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
+[2016.11.29-06.10.59:229][559]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.29-06.10.59:229][559]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.10.59:229][559]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by gunbarrel_Sprite
+[2016.11.29-06.10.59:229][559]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.29-06.11.00:561][559]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2016.11.29-06.11.17:867][411]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.11.17:867][411]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/ultimate_Sprite.uasset.
+[2016.11.29-06.11.17:867][411]LoadErrors:Error: Error /Game/2DSideScroller/Sprites/ultimate_Sprite : Can't find file for asset. /Paper2D/TranslucentUnlitSpriteMaterial
+[2016.11.29-06.11.17:868][411]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.11.17:868][411]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/ultimate_Sprite.uasset.
+[2016.11.29-06.11.17:999][411]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.11.17:999][411]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/anglebar_Sprite.uasset.
+[2016.11.29-06.11.17:999][411]LoadErrors:Error: Error /Game/2DSideScroller/Sprites/anglebar_Sprite : Can't find file for asset. /Paper2D/TranslucentUnlitSpriteMaterial
+[2016.11.29-06.11.18:000][411]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.11.18:000][411]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/anglebar_Sprite.uasset.
+[2016.11.29-06.11.18:071][411]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.11.18:071][411]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by anglebar_Sprite
+[2016.11.29-06.11.18:072][411]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.29-06.11.18:082][411]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.11.18:082][411]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
+[2016.11.29-06.11.18:082][411]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.29-06.11.27:143][470]SourceControl:Error: Error fatal: Could not switch to '/Script/': No such file or directory
+[2016.11.29-06.11.41:390][128]LogMaterial: Missing cached shader map for material M_smoke_gravity_noise_dirlit01, compiling. 
+[2016.11.29-06.11.41:451][128]LogMaterial: Missing cached shader map for material M_debris_grit, compiling. 
+[2016.11.29-06.11.41:467][128]LogMaterial: Missing cached shader map for material M_spark_dirty, compiling. 
+[2016.11.29-06.11.41:484][128]LogMaterial: Missing cached shader map for material M_debris_SUB, compiling. 
+[2016.11.29-06.11.41:523][128]LogMaterial: Missing cached shader map for material M_CoreShapes, compiling. 
+[2016.11.29-06.11.41:540][128]LogMaterial: Missing cached shader map for material M_smoke_bomb_dirlit_01, compiling. 
+[2016.11.29-06.11.41:580][128]LogMaterial: Missing cached shader map for material M_BulletEject, compiling. 
+[2016.11.29-06.11.41:618][128]LogStaticMesh: Building static mesh SM_WoodChip...
+[2016.11.29-06.11.41:621][128]LogStaticMesh: Built static mesh [0.00s] /Game/BulletVFX/Meshes/SM_WoodChip.SM_WoodChip
+[2016.11.29-06.11.41:623][128]LogMaterial: Missing cached shader map for material M_WoodSplinter, compiling. 
+[2016.11.29-06.11.41:651][128]LogStaticMesh: Building static mesh SM_BulletCasing...
+[2016.11.29-06.11.41:657][128]LogStaticMesh: Built static mesh [0.01s] /Game/BulletVFX/Meshes/SM_BulletCasing.SM_BulletCasing
+[2016.11.29-06.11.41:659][128]LogMaterial: Missing cached shader map for material M_Ember, compiling. 
+[2016.11.29-06.11.41:678][128]LogMaterial: Missing cached shader map for material M_fluid_drip, compiling. 
+[2016.11.29-06.11.41:719][128]LogMaterial: Missing cached shader map for material M_fluid_splash_loose, compiling. 
+[2016.11.29-06.11.41:758][128]LogMaterial: Missing cached shader map for material M_fluid_splash, compiling. 
+[2016.11.29-06.11.41:797][128]LogStaticMesh: Building static mesh SM_RockDirt...
+[2016.11.29-06.11.41:801][128]LogStaticMesh: Built static mesh [0.00s] /Game/BulletVFX/Meshes/SM_RockDirt.SM_RockDirt
+[2016.11.29-06.11.41:804][128]LogMaterial: Missing cached shader map for material M_ConcreteDebris, compiling. 
+[2016.11.29-06.11.41:829][128]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2016.11.29-06.11.41:846][128]LogMaterial: Missing cached shader map for material M_smoke_gravity_noise_01, compiling. 
+[2016.11.29-06.11.41:888][128]LogMaterial: Missing cached shader map for material M_blood_splash, compiling. 
+[2016.11.29-06.11.41:971][128]LogMaterial: Missing cached shader map for material M_smoke_bomb_noise_01, compiling. 
+[2016.11.29-06.11.42:064][128]LogAIModule: Creating AISystem for world Overview
+[2016.11.29-06.11.42:065][128]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Overview.Overview:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2016.11.29-06.11.45:273][128]LogSavePackage: Save=11.60ms
+[2016.11.29-06.11.45:273][128]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6cF3417277453167B29761E5A5EA4BBB0A.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c'
+[2016.11.29-06.11.45:277][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.11.45:455][128]LogSavePackage: Save=8.09ms
+[2016.11.29-06.11.45:455][128]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c7E47E22D4BD7B8248EFD3BB6D3BAC6CC.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c'
+[2016.11.29-06.11.45:459][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.11.45:460][128]Cmd: MAP LOAD FILE="../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Maps/Overview.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.29-06.11.45:460][128]LightingResults: New page: Lighting Build
+[2016.11.29-06.11.45:461][128]LoadErrors: New page: Loading map: Overview.umap
+[2016.11.29-06.11.45:461][128]MapCheck: New page: Map Check
+[2016.11.29-06.11.45:461][128]LightingResults: New page: Lighting Build
+[2016.11.29-06.11.45:552][128]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.29-06.11.45:574][128]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.29-06.11.45:630][128]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.515ms to complete.
+[2016.11.29-06.11.45:630][128]LogFileHelpers: Loading map 'Overview' took 0.170
+[2016.11.29-06.11.56:264][297]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2016.11.29-06.11.56:630][297]Cmd: MAP LOAD FILE="../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.29-06.11.56:630][297]LightingResults: New page: Lighting Build
+[2016.11.29-06.11.56:631][297]LoadErrors: New page: Loading map: 2DSideScrollerExampleMap.umap
+[2016.11.29-06.11.56:631][297]MapCheck: New page: Map Check
+[2016.11.29-06.11.56:631][297]LightingResults: New page: Lighting Build
+[2016.11.29-06.11.57:251][297]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.29-06.11.57:274][297]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.29-06.11.57:331][297]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.387ms to complete.
+[2016.11.29-06.11.57:331][297]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.701
+[2016.11.29-06.11.59:662][474]LogEditorViewport: Clicking on Actor (LMB): enemyTank_C (enemyTank)
+[2016.11.29-06.12.00:084][508]LogEditorViewport: Clicking on Actor (context menu): enemyTank_C (enemyTank)
+[2016.11.29-06.12.02:346][739]LogEditorViewport: Clicking on Actor (context menu): enemyTank_C (enemyTank)
+[2016.11.29-06.12.07:565][289]LogRenderer: Reallocating scene render targets to support 1208x744 NumSamples 1 (Frame:7023).
+[2016.11.29-06.18.04:582][240]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\skullmech walk frame1.png)
+[2016.11.29-06.18.04:660][240]LogTexture:Display: Building textures: skullmech_walk_frame1 (AutoDXT)
+[2016.11.29-06.18.05:982][240]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\skullmech walk frame2.png)
+[2016.11.29-06.18.06:059][240]LogTexture:Display: Building textures: skullmech_walk_frame2 (AutoDXT)
+[2016.11.29-06.18.07:388][240]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\skullmech walk frame3.png)
+[2016.11.29-06.18.07:465][240]LogTexture:Display: Building textures: skullmech_walk_frame3 (AutoDXT)
+[2016.11.29-06.18.08:814][240]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\skullmech walk frame4.png)
+[2016.11.29-06.18.08:890][240]LogTexture:Display: Building textures: skullmech_walk_frame4 (AutoDXT)
+[2016.11.29-06.18.10:280][240]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\skullmech walk frame5.png)
+[2016.11.29-06.18.10:351][240]LogTexture:Display: Building textures: skullmech_walk_frame5 (AutoDXT)
+[2016.11.29-06.18.11:716][240]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\skullmech walk frame6.png)
+[2016.11.29-06.18.11:786][240]LogTexture:Display: Building textures: skullmech_walk_frame6 (AutoDXT)
+[2016.11.29-06.18.13:134][240]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\skullmech walk frame7.png)
+[2016.11.29-06.18.13:202][240]LogTexture:Display: Building textures: skullmech_walk_frame7 (AutoDXT)
+[2016.11.29-06.18.14:557][240]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\skullmech walk frame8.png)
+[2016.11.29-06.18.14:625][240]LogTexture:Display: Building textures: skullmech_walk_frame8 (AutoDXT)
+[2016.11.29-06.18.23:327][920]LogTexture:Display: Building textures: skullmech_walk_frame1 (BGRA8)
+[2016.11.29-06.18.23:498][920]LogTexture:Display: Building textures: skullmech_walk_frame2 (BGRA8)
+[2016.11.29-06.18.23:655][920]LogTexture:Display: Building textures: skullmech_walk_frame3 (BGRA8)
+[2016.11.29-06.18.23:798][920]LogTexture:Display: Building textures: skullmech_walk_frame4 (BGRA8)
+[2016.11.29-06.18.23:962][920]LogTexture:Display: Building textures: skullmech_walk_frame5 (BGRA8)
+[2016.11.29-06.18.24:127][920]LogTexture:Display: Building textures: skullmech_walk_frame6 (BGRA8)
+[2016.11.29-06.18.24:276][920]LogTexture:Display: Building textures: skullmech_walk_frame7 (BGRA8)
+[2016.11.29-06.18.24:417][920]LogTexture:Display: Building textures: skullmech_walk_frame8 (BGRA8)
+[2016.11.29-06.18.31:295][618]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:296][618]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:296][618]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:296][618]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.18.31:414][618]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:414][618]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:414][618]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.18.31:531][618]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:531][618]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:531][618]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.18.31:658][618]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:658][618]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:658][618]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.18.31:774][618]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:774][618]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:774][618]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.18.31:888][618]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:888][618]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.31:888][618]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.18.32:001][618]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.32:001][618]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.32:001][618]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.18.32:120][618]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.32:120][618]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.18.32:120][618]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.18.52:313][701]SourceControl: Info On branch master
+[2016.11.29-06.18.52:313][701]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.18.52:313][701]SourceControl: Info Changes to be committed:
+[2016.11.29-06.18.52:313][701]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.18.52:313][701]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.18.52:313][701]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.18.52:313][701]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.18.52:313][701]SourceControl: Info Untracked files:
+[2016.11.29-06.18.52:313][701]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.18.52:313][701]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.18.52:641][701]LogSavePackage: Save=7.25ms
+[2016.11.29-06.18.52:641][701]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame1_SpriteD11419E8449490426480E7831E7A99C5.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset'
+[2016.11.29-06.18.52:645][701]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info On branch master
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info Changes to be committed:
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info Untracked files:
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.18.55:996][ 21]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.18.56:308][ 21]LogSavePackage: Save=7.37ms
+[2016.11.29-06.18.56:308][ 21]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame2_Sprite0590F576452B4C0FF6CDA4B1C78F9DF9.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset'
+[2016.11.29-06.18.56:311][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.18.58:807][253]SourceControl: Info On branch master
+[2016.11.29-06.18.58:807][253]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.18.58:807][253]SourceControl: Info Changes to be committed:
+[2016.11.29-06.18.58:807][253]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.18.58:807][253]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.18.58:807][253]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.18.58:807][253]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.18.58:807][253]SourceControl: Info Untracked files:
+[2016.11.29-06.18.58:807][253]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.18.58:807][253]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.18.59:120][253]LogSavePackage: Save=6.89ms
+[2016.11.29-06.18.59:120][253]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame3_Sprite008D96274AEC8777EBE1768ED11CBDD1.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset'
+[2016.11.29-06.18.59:124][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.19.02:661][599]SourceControl: Info On branch master
+[2016.11.29-06.19.02:661][599]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.19.02:661][599]SourceControl: Info Changes to be committed:
+[2016.11.29-06.19.02:661][599]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.19.02:661][599]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.19.02:661][599]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.19.02:661][599]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.19.02:661][599]SourceControl: Info Untracked files:
+[2016.11.29-06.19.02:661][599]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.19.02:661][599]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.19.02:972][599]LogSavePackage: Save=6.95ms
+[2016.11.29-06.19.02:973][599]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame4_Sprite318131354DC19604AD22BCA602F9BD10.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset'
+[2016.11.29-06.19.02:977][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.19.06:393][940]SourceControl: Info On branch master
+[2016.11.29-06.19.06:393][940]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.19.06:393][940]SourceControl: Info Changes to be committed:
+[2016.11.29-06.19.06:393][940]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.19.06:393][940]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.19.06:393][940]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.19.06:393][940]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.19.06:393][940]SourceControl: Info Untracked files:
+[2016.11.29-06.19.06:393][940]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.19.06:393][940]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.19.06:704][940]LogSavePackage: Save=7.23ms
+[2016.11.29-06.19.06:704][940]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame5_SpriteD8CAD26C43135F26AAF283BC9BE54ED2.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame5_Sprite.uasset'
+[2016.11.29-06.19.06:707][940]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame5_Sprite.uasset
+[2016.11.29-06.19.09:842][238]SourceControl: Info On branch master
+[2016.11.29-06.19.09:842][238]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.19.09:842][238]SourceControl: Info Changes to be committed:
+[2016.11.29-06.19.09:842][238]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame5_Sprite.uasset
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.19.09:842][238]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.19.09:842][238]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.19.09:842][238]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.19.09:842][238]SourceControl: Info Untracked files:
+[2016.11.29-06.19.09:842][238]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.19.09:842][238]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.19.10:154][238]LogSavePackage: Save=7.19ms
+[2016.11.29-06.19.10:154][238]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame6_Sprite5A818AA84347935A423952B84AF6A69A.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame6_Sprite.uasset'
+[2016.11.29-06.19.10:158][238]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame6_Sprite.uasset
+[2016.11.29-06.19.14:271][656]SourceControl: Info On branch master
+[2016.11.29-06.19.14:271][656]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.19.14:271][656]SourceControl: Info Changes to be committed:
+[2016.11.29-06.19.14:271][656]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame5_Sprite.uasset
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame6_Sprite.uasset
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.19.14:271][656]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.19.14:271][656]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.19.14:271][656]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.19.14:271][656]SourceControl: Info Untracked files:
+[2016.11.29-06.19.14:271][656]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.19.14:271][656]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.19.14:584][656]LogSavePackage: Save=6.77ms
+[2016.11.29-06.19.14:584][656]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame7_Sprite80FB95B44BF92E36B6DB6386BF55B804.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame7_Sprite.uasset'
+[2016.11.29-06.19.14:588][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame7_Sprite.uasset
+[2016.11.29-06.19.19:075][121]SourceControl: Info On branch master
+[2016.11.29-06.19.19:075][121]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.19.19:075][121]SourceControl: Info Changes to be committed:
+[2016.11.29-06.19.19:075][121]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame5_Sprite.uasset
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame6_Sprite.uasset
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame7_Sprite.uasset
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.19.19:075][121]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.19.19:075][121]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.19.19:075][121]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.19.19:075][121]SourceControl: Info Untracked files:
+[2016.11.29-06.19.19:075][121]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.19.19:075][121]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.19.19:386][121]LogSavePackage: Save=6.82ms
+[2016.11.29-06.19.19:386][121]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame8_SpriteE85D49584DA77B65AB6060BE4D8BD57C.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame8_Sprite.uasset'
+[2016.11.29-06.19.19:390][121]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame8_Sprite.uasset
+[2016.11.29-06.19.32:694][406]LogRenderer: Reallocating scene render targets to support 1528x828 NumSamples 1 (Frame:34470).
+[2016.11.29-06.20.21:452][246]Cmd: TRANSACTION UNDO
+[2016.11.29-06.20.21:452][246]LogEditorTransaction: Undo Reorder key frames
+[2016.11.29-06.21.27:621][158]LogSavePackage: Save=6.80ms
+[2016.11.29-06.21.27:621][158]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame0705E358470751B0A03DBDAFD60D5430.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame.uasset'
+[2016.11.29-06.21.27:624][158]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame.uasset
+[2016.11.29-06.22.26:485][795]LogEditorTransaction: Undo Modify Component(s)
+[2016.11.29-06.23.12:272][846]LogSavePackage: Save=807.41ms
+[2016.11.29-06.23.12:272][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/2DSideScrollerExampleMap_Auto108B4ECCC46FB2C236E604188254A0026.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2016.11.29-06.23.12:275][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2016.11.29-06.23.12:277][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.874
+[2016.11.29-06.23.12:277][846]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.874
+[2016.11.29-06.23.12:279][846]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/enemyTank] ([1] browsable assets)...
+[2016.11.29-06.23.12:279][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/enemyTank]
+[2016.11.29-06.23.12:303][846]LogSavePackage: Save=14.35ms
+[2016.11.29-06.23.12:303][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/enemyTank_Auto196B3D85249851A0C41B0B7A6CF092D31.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/enemyTank_Auto1.uasset'
+[2016.11.29-06.23.12:305][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/enemyTank_Auto1.uasset
+[2016.11.29-06.23.12:306][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H] ([1] browsable assets)...
+[2016.11.29-06.23.12:314][846]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H.eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H]
+[2016.11.29-06.23.12:314][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H]
+[2016.11.29-06.23.12:322][846]LogSavePackage: Save=6.22ms
+[2016.11.29-06.23.12:322][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQ9F905FBD486CEF0B4DE2BDB945FA43CA.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQ'
+[2016.11.29-06.23.12:324][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQ
+[2016.11.29-06.23.12:325][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1] ([1] browsable assets)...
+[2016.11.29-06.23.12:333][846]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1.skullmech_walk_frame1]
+[2016.11.29-06.23.12:333][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1]
+[2016.11.29-06.23.12:342][846]LogSavePackage: Save=8.02ms
+[2016.11.29-06.23.12:342][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame1_Auto1D5EB43E94C79DAC36DE18B8791C59060.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1_Auto1.uasset'
+[2016.11.29-06.23.12:344][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1_Auto1.uasset
+[2016.11.29-06.23.12:345][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2] ([1] browsable assets)...
+[2016.11.29-06.23.12:353][846]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2.skullmech_walk_frame2]
+[2016.11.29-06.23.12:353][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2]
+[2016.11.29-06.23.12:363][846]LogSavePackage: Save=8.44ms
+[2016.11.29-06.23.12:363][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame2_Auto1094BFFF24FCD8D85BC3526B1EBFD1481.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2_Auto1.uasset'
+[2016.11.29-06.23.12:365][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2_Auto1.uasset
+[2016.11.29-06.23.12:366][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3] ([1] browsable assets)...
+[2016.11.29-06.23.12:373][846]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3.skullmech_walk_frame3]
+[2016.11.29-06.23.12:373][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3]
+[2016.11.29-06.23.12:383][846]LogSavePackage: Save=7.95ms
+[2016.11.29-06.23.12:383][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame3_Auto12EE8825A44FC56C24B047A8203EDABFD.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3_Auto1.uasset'
+[2016.11.29-06.23.12:385][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3_Auto1.uasset
+[2016.11.29-06.23.12:386][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4] ([1] browsable assets)...
+[2016.11.29-06.23.12:394][846]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4.skullmech_walk_frame4]
+[2016.11.29-06.23.12:394][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4]
+[2016.11.29-06.23.12:404][846]LogSavePackage: Save=8.12ms
+[2016.11.29-06.23.12:404][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame4_Auto17FB9D1D648B6E24D6241BBA0DA0FD39A.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4_Auto1.uasset'
+[2016.11.29-06.23.12:406][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4_Auto1.uasset
+[2016.11.29-06.23.12:407][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5] ([1] browsable assets)...
+[2016.11.29-06.23.12:414][846]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5.skullmech_walk_frame5]
+[2016.11.29-06.23.12:414][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5]
+[2016.11.29-06.23.12:424][846]LogSavePackage: Save=8.16ms
+[2016.11.29-06.23.12:424][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame5_Auto18509DBC5443EE4E5DBFDF798A3B8AEC7.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5_Auto1.uasset'
+[2016.11.29-06.23.12:425][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5_Auto1.uasset
+[2016.11.29-06.23.12:427][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6] ([1] browsable assets)...
+[2016.11.29-06.23.12:434][846]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6.skullmech_walk_frame6]
+[2016.11.29-06.23.12:434][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6]
+[2016.11.29-06.23.12:445][846]LogSavePackage: Save=8.85ms
+[2016.11.29-06.23.12:445][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame6_Auto1C7E61A104BB80AF4D463E28A90ECFF30.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6_Auto1.uasset'
+[2016.11.29-06.23.12:446][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6_Auto1.uasset
+[2016.11.29-06.23.12:448][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7] ([1] browsable assets)...
+[2016.11.29-06.23.12:455][846]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7.skullmech_walk_frame7]
+[2016.11.29-06.23.12:455][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7]
+[2016.11.29-06.23.12:465][846]LogSavePackage: Save=8.69ms
+[2016.11.29-06.23.12:465][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame7_Auto140355821421342ABBD0E2F9F89D81BA5.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7_Auto1.uasset'
+[2016.11.29-06.23.12:467][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7_Auto1.uasset
+[2016.11.29-06.23.12:468][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8] ([1] browsable assets)...
+[2016.11.29-06.23.12:475][846]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8.skullmech_walk_frame8]
+[2016.11.29-06.23.12:475][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8]
+[2016.11.29-06.23.12:486][846]LogSavePackage: Save=9.23ms
+[2016.11.29-06.23.12:486][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame8_Auto1A00E93E046ED3B0A9D5990BD1B8BAD17.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8_Auto1.uasset'
+[2016.11.29-06.23.12:488][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8_Auto1.uasset
+[2016.11.29-06.23.12:492][846]LogSavePackage: Save=1.48ms
+[2016.11.29-06.23.12:492][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame1_Sprite_Auto143E709674705BDE0782F8095553D60EF.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1_Sprite_Auto1.uasset'
+[2016.11.29-06.23.12:493][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1_Sprite_Auto1.uasset
+[2016.11.29-06.23.12:498][846]LogSavePackage: Save=1.41ms
+[2016.11.29-06.23.12:498][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame2_Sprite_Auto1CA9DF58D457C3868BF8BD18128809DD5.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2_Sprite_Auto1.uasset'
+[2016.11.29-06.23.12:499][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2_Sprite_Auto1.uasset
+[2016.11.29-06.23.12:504][846]LogSavePackage: Save=2.64ms
+[2016.11.29-06.23.12:504][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame3_Sprite_Auto18DB5BBF94418CD11ABFF3FB2DBF172BF.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3_Sprite_Auto1.uasset'
+[2016.11.29-06.23.12:506][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3_Sprite_Auto1.uasset
+[2016.11.29-06.23.12:510][846]LogSavePackage: Save=1.43ms
+[2016.11.29-06.23.12:510][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame4_Sprite_Auto18ED9B0CD4F27A919E4C85DBAAB4E4D3A.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4_Sprite_Auto1.uasset'
+[2016.11.29-06.23.12:511][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4_Sprite_Auto1.uasset
+[2016.11.29-06.23.12:515][846]LogSavePackage: Save=1.34ms
+[2016.11.29-06.23.12:515][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame5_Sprite_Auto14024086346F55E1CA813C8A6CE672B97.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5_Sprite_Auto1.uasset'
+[2016.11.29-06.23.12:517][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5_Sprite_Auto1.uasset
+[2016.11.29-06.23.12:521][846]LogSavePackage: Save=1.47ms
+[2016.11.29-06.23.12:521][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame6_Sprite_Auto19CA1BD5B4B3496AA5D4AE6A705350451.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6_Sprite_Auto1.uasset'
+[2016.11.29-06.23.12:522][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6_Sprite_Auto1.uasset
+[2016.11.29-06.23.12:527][846]LogSavePackage: Save=1.57ms
+[2016.11.29-06.23.12:527][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame7_Sprite_Auto1C4E3264045EB2606C0ED41A3FC08AAE1.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7_Sprite_Auto1.uasset'
+[2016.11.29-06.23.12:529][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7_Sprite_Auto1.uasset
+[2016.11.29-06.23.12:533][846]LogSavePackage: Save=1.54ms
+[2016.11.29-06.23.12:533][846]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame8_Sprite_Auto187C6D3984DBDD4C81140B9966E6B6416.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8_Sprite_Auto1.uasset'
+[2016.11.29-06.23.12:535][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8_Sprite_Auto1.uasset
+[2016.11.29-06.23.12:535][846]LogFileHelpers: Auto-saving content packages took 0.257
+[2016.11.29-06.24.14:193][191]SourceControl: Info On branch master
+[2016.11.29-06.24.14:193][191]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.24.14:193][191]SourceControl: Info Changes to be committed:
+[2016.11.29-06.24.14:193][191]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame5_Sprite.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame6_Sprite.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame7_Sprite.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame8_Sprite.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.24.14:193][191]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.24.14:193][191]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.24.14:193][191]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.24.14:193][191]SourceControl: Info Untracked files:
+[2016.11.29-06.24.14:193][191]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/enemyTank_Auto1.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQ
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerExampleMap_2016-11-29-01-23-11.umap
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	NailBound/Saved/Backup/enemyTank_2016-11-29-01-23-12.uasset
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.24.14:193][191]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.24.14:502][191]LogSavePackage: Save=6.42ms
+[2016.11.29-06.24.14:502][191]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame3B9C684941010E5767C74FA14EDCA9B3.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/skullmech_walk_frame.uasset'
+[2016.11.29-06.24.14:507][191]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/skullmech_walk_frame.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info On branch master
+[2016.11.29-06.24.29:574][863]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.24.29:574][863]SourceControl: Info Changes to be committed:
+[2016.11.29-06.24.29:574][863]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame5_Sprite.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame6_Sprite.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame7_Sprite.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame8_Sprite.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/skullmech_walk_frame.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.24.29:574][863]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.24.29:574][863]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.24.29:574][863]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.24.29:574][863]SourceControl: Info Untracked files:
+[2016.11.29-06.24.29:574][863]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/enemyTank_Auto1.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQ
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerExampleMap_2016-11-29-01-23-11.umap
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	NailBound/Saved/Backup/enemyTank_2016-11-29-01-23-12.uasset
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.24.29:574][863]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.24.29:881][863]LogSavePackage: Save=6.26ms
+[2016.11.29-06.24.29:881][863]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_animation78B07D4A41C3080780FFCABC442F09F3.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/skullmech_walk_animation.uasset'
+[2016.11.29-06.24.29:886][863]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/skullmech_walk_animation.uasset
+[2016.11.29-06.25.15:613][746]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\Skullmech idle torso.png)
+[2016.11.29-06.25.15:685][746]LogTexture:Display: Building textures: Skullmech_idle_torso (AutoDXT)
+[2016.11.29-06.25.23:137][766]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\skullmech idle leg.png)
+[2016.11.29-06.25.23:200][766]LogTexture:Display: Building textures: skullmech_idle_leg (AutoDXT)
+[2016.11.29-06.25.32:659][793]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WhisperedLullaby\Desktop\skull mech animation parts\skullmech idle arm.png)
+[2016.11.29-06.25.32:724][793]LogTexture:Display: Building textures: skullmech_idle_arm (AutoDXT)
+[2016.11.29-06.25.43:294][266]LogTexture:Display: Building textures: Skullmech_idle_torso (BGRA8)
+[2016.11.29-06.25.47:298][714]LogTexture:Display: Building textures: skullmech_idle_leg (BGRA8)
+[2016.11.29-06.25.51:724][211]LogTexture:Display: Building textures: skullmech_idle_arm (BGRA8)
+[2016.11.29-06.25.57:143][820]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.25.57:143][820]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.25.57:143][820]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.25.57:143][820]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.26.24:133][999]SourceControl: Info On branch master
+[2016.11.29-06.26.24:133][999]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.26.24:133][999]SourceControl: Info Changes to be committed:
+[2016.11.29-06.26.24:133][999]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame5_Sprite.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame6_Sprite.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame7_Sprite.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame8_Sprite.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/skullmech_walk_animation.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/skullmech_walk_frame.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.26.24:133][999]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.26.24:133][999]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.26.24:133][999]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.26.24:133][999]SourceControl: Info Untracked files:
+[2016.11.29-06.26.24:133][999]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/enemyTank_Auto1.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQ
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerExampleMap_2016-11-29-01-23-11.umap
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	NailBound/Saved/Backup/enemyTank_2016-11-29-01-23-12.uasset
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.26.24:133][999]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.26.24:443][999]LogSavePackage: Save=6.59ms
+[2016.11.29-06.26.24:443][999]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Skullmech_idle_torso_Sprite938688CD44CC4DB9C37FDD9027A1638E.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullIdleFrames/Skullmech_idle_torso_Sprite.uasset'
+[2016.11.29-06.26.24:447][999]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullIdleFrames/Skullmech_idle_torso_Sprite.uasset
+[2016.11.29-06.26.29:080][474]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.26.29:080][474]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.26.29:080][474]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.26.29:080][474]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.26.32:488][852]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.26.32:488][852]LogUObjectGlobals:Warning: Failed to find object 'Object /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial'
+[2016.11.29-06.26.32:488][852]LogPaper2DEditor:Warning: Failed to load material specified in Paper2D import settings (unlit 3)
+[2016.11.29-06.26.37:697][453]SourceControl: Info On branch master
+[2016.11.29-06.26.37:697][453]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.26.37:697][453]SourceControl: Info Changes to be committed:
+[2016.11.29-06.26.37:697][453]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullIdleFrames/Skullmech_idle_torso_Sprite.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame5_Sprite.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame6_Sprite.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame7_Sprite.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame8_Sprite.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/skullmech_walk_animation.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/skullmech_walk_frame.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.26.37:697][453]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.26.37:697][453]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.26.37:697][453]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.26.37:697][453]SourceControl: Info Untracked files:
+[2016.11.29-06.26.37:697][453]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/enemyTank_Auto1.uasset
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQ
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerExampleMap_2016-11-29-01-23-11.umap
+[2016.11.29-06.26.37:697][453]SourceControl: Info 	NailBound/Saved/Backup/enemyTank_2016-11-29-01-23-12.uasset
+[2016.11.29-06.26.37:698][453]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.26.37:698][453]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.26.38:006][453]LogSavePackage: Save=6.51ms
+[2016.11.29-06.26.38:006][453]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_idle_arm_SpriteF95C7796460F93832A94E8AE2DA09705.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullIdleFrames/skullmech_idle_arm_Sprite.uasset'
+[2016.11.29-06.26.38:010][453]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullIdleFrames/skullmech_idle_arm_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info On branch master
+[2016.11.29-06.26.42:726][949]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.29-06.26.42:726][949]SourceControl: Info Changes to be committed:
+[2016.11.29-06.26.42:726][949]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullIdleFrames/Skullmech_idle_torso_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullIdleFrames/skullmech_idle_arm_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame5_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame6_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame7_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/SkullRunFrames/skullmech_walk_frame8_Sprite.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/skullmech_walk_animation.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScroller/Sprites/skullmech_walk_frame.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.26.42:726][949]SourceControl: Info Changes not staged for commit:
+[2016.11.29-06.26.42:726][949]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.29-06.26.42:726][949]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H6c
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Engine.ini
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.29-06.26.42:726][949]SourceControl: Info Untracked files:
+[2016.11.29-06.26.42:726][949]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScroller/Materials/SkullMaterials/
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/enemyTank_Auto1.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQ
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerExampleMap_2016-11-29-01-23-11.umap
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	NailBound/Saved/Backup/enemyTank_2016-11-29-01-23-12.uasset
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-01.09.36.log
+[2016.11.29-06.26.42:726][949]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-119B28064095B030301DE09D48DDE82C/
+[2016.11.29-06.26.43:045][949]LogSavePackage: Save=6.46ms
+[2016.11.29-06.26.43:046][949]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_idle_leg_Sprite40742F05468FCE3F36D623A3202C0D61.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullIdleFrames/skullmech_idle_leg_Sprite.uasset'
+[2016.11.29-06.26.43:050][949]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/SkullIdleFrames/skullmech_idle_leg_Sprite.uasset
+[2016.11.29-06.26.53:005][935]LogSavePackage: Save=795.64ms
+[2016.11.29-06.26.53:005][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/2DSideScrollerExampleMapB524C8D9439AD479236AAFA10E3AD7F8.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2016.11.29-06.26.53:010][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2016.11.29-06.26.53:042][935]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.917
+[2016.11.29-06.26.53:069][935]LogSavePackage: Save=14.72ms
+[2016.11.29-06.26.53:069][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/enemyTankDA30B8A549664F99C02ECC9917C54E77.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Blueprints/enemyTank.uasset'
+[2016.11.29-06.26.53:073][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Blueprints/enemyTank.uasset
+[2016.11.29-06.26.53:092][935]LogSavePackage: Save=6.14ms
+[2016.11.29-06.26.53:092][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-HA80BFBF444CE07D463791E9ECB2C65DC.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H.u'
+[2016.11.29-06.26.53:096][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/eJwNyMENhCAQAMBeKAAEBMFmzAYRjCCEXXOPy_V-znO-7BmFrSwTdVyF2E8MbewcqQ1IkafWUonQT-ShVQFEEHKNN6FQ86K9t1ZLORlntXVCGT1p76SanfGL9G_h9ZRSY8jbB8q1HQNqlLzfif3-H.u
+[2016.11.29-06.26.53:355][935]LogSavePackage: Save=108.48ms
+[2016.11.29-06.26.53:355][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame1A29668CC44767168AE28CDB5D5F5C28E.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1.uasset'
+[2016.11.29-06.26.53:359][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1.uasset
+[2016.11.29-06.26.53:638][935]LogSavePackage: Save=108.36ms
+[2016.11.29-06.26.53:638][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame279542CAF4C6ED50DD3176F81F1C78C54.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2.uasset'
+[2016.11.29-06.26.53:642][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2.uasset
+[2016.11.29-06.26.53:920][935]LogSavePackage: Save=106.84ms
+[2016.11.29-06.26.53:920][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame376414D04473C02212C0C368DD520EA4D.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3.uasset'
+[2016.11.29-06.26.53:924][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3.uasset
+[2016.11.29-06.26.54:206][935]LogSavePackage: Save=108.91ms
+[2016.11.29-06.26.54:206][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame49D20180E4594AA0CD5F49EB3007769D3.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4.uasset'
+[2016.11.29-06.26.54:210][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4.uasset
+[2016.11.29-06.26.54:491][935]LogSavePackage: Save=110.15ms
+[2016.11.29-06.26.54:491][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame5F9F03A2447B1C0C6D56E3DBCE64FFC50.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5.uasset'
+[2016.11.29-06.26.54:496][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5.uasset
+[2016.11.29-06.26.54:775][935]LogSavePackage: Save=108.20ms
+[2016.11.29-06.26.54:775][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame62AF2854747F1F112CD596995FA11CCB6.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6.uasset'
+[2016.11.29-06.26.54:779][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6.uasset
+[2016.11.29-06.26.55:069][935]LogSavePackage: Save=108.23ms
+[2016.11.29-06.26.55:069][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame79C8D7B8F4C22784980BDC5A9561D8709.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7.uasset'
+[2016.11.29-06.26.55:073][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7.uasset
+[2016.11.29-06.26.55:353][935]LogSavePackage: Save=107.95ms
+[2016.11.29-06.26.55:353][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame8A64D695242A763061DEE43A4EF00087E.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8.uasset'
+[2016.11.29-06.26.55:357][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8.uasset
+[2016.11.29-06.26.55:534][935]LogSavePackage: Save=1.43ms
+[2016.11.29-06.26.55:534][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame1_Sprite024703DC4BC25E470BFAF489F52B4C17.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1_Sprite.uasset'
+[2016.11.29-06.26.55:537][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame1_Sprite.uasset
+[2016.11.29-06.26.55:791][935]LogSavePackage: Save=1.40ms
+[2016.11.29-06.26.55:791][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame2_SpriteB878984C49CC2DFBF3AE5CBE95D16685.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2_Sprite.uasset'
+[2016.11.29-06.26.55:794][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame2_Sprite.uasset
+[2016.11.29-06.26.55:950][935]LogSavePackage: Save=1.37ms
+[2016.11.29-06.26.55:950][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame3_Sprite61ECC20D4215A340CB0E42A08775BE16.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3_Sprite.uasset'
+[2016.11.29-06.26.55:955][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame3_Sprite.uasset
+[2016.11.29-06.26.56:120][935]LogSavePackage: Save=1.44ms
+[2016.11.29-06.26.56:120][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame4_Sprite037AB598441573EBE1314C9A9E58317B.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4_Sprite.uasset'
+[2016.11.29-06.26.56:123][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame4_Sprite.uasset
+[2016.11.29-06.26.56:268][935]LogSavePackage: Save=1.41ms
+[2016.11.29-06.26.56:268][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame5_SpriteFDD7E339493931CE9E0734896B064CBF.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5_Sprite.uasset'
+[2016.11.29-06.26.56:272][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame5_Sprite.uasset
+[2016.11.29-06.26.56:426][935]LogSavePackage: Save=1.45ms
+[2016.11.29-06.26.56:426][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame6_Sprite51D62D8C499D36708BE5A3BEC661FFB7.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6_Sprite.uasset'
+[2016.11.29-06.26.56:429][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame6_Sprite.uasset
+[2016.11.29-06.26.56:573][935]LogSavePackage: Save=1.34ms
+[2016.11.29-06.26.56:573][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame7_SpriteC861BA4449F3DB0AB7DF90A149180E4B.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7_Sprite.uasset'
+[2016.11.29-06.26.56:577][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame7_Sprite.uasset
+[2016.11.29-06.26.56:720][935]LogSavePackage: Save=1.41ms
+[2016.11.29-06.26.56:720][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_walk_frame8_Sprite9BD83488468E4C7A12D3F2B615953177.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8_Sprite.uasset'
+[2016.11.29-06.26.56:724][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_walk_frame8_Sprite.uasset
+[2016.11.29-06.26.56:971][935]LogSavePackage: Save=97.13ms
+[2016.11.29-06.26.56:971][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Skullmech_idle_torsoAB96394548B202268E41B59846174A68.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/Skullmech_idle_torso.uasset'
+[2016.11.29-06.26.56:975][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/Skullmech_idle_torso.uasset
+[2016.11.29-06.26.57:221][935]LogSavePackage: Save=84.35ms
+[2016.11.29-06.26.57:221][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_idle_legFBD8FC64409982657D19CFA5CD7C3EED.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_idle_leg.uasset'
+[2016.11.29-06.26.57:224][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_idle_leg.uasset
+[2016.11.29-06.26.57:460][935]LogSavePackage: Save=85.40ms
+[2016.11.29-06.26.57:460][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_idle_armACE5E273490808E4E26CE994A1CDA368.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_idle_arm.uasset'
+[2016.11.29-06.26.57:464][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_idle_arm.uasset
+[2016.11.29-06.26.57:658][935]LogSavePackage: Save=1.38ms
+[2016.11.29-06.26.57:658][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Skullmech_idle_torso_Sprite9ABCAAA847BB1BC1F2465AB993C5B651.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/Skullmech_idle_torso_Sprite.uasset'
+[2016.11.29-06.26.57:661][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/Skullmech_idle_torso_Sprite.uasset
+[2016.11.29-06.26.57:850][935]LogSavePackage: Save=1.52ms
+[2016.11.29-06.26.57:850][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_idle_leg_Sprite8DACB2044FA7E85CB51F57A2133FAFEA.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_idle_leg_Sprite.uasset'
+[2016.11.29-06.26.57:854][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_idle_leg_Sprite.uasset
+[2016.11.29-06.26.57:997][935]LogSavePackage: Save=1.28ms
+[2016.11.29-06.26.57:997][935]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/skullmech_idle_arm_Sprite5FFE014C429783BBFB21B08DF548F294.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_idle_arm_Sprite.uasset'
+[2016.11.29-06.26.58:001][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Materials/SkullMaterials/skullmech_idle_arm_Sprite.uasset
+[2016.11.29-06.27.19:674][931]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.29-06.27.20:619][932]Cmd: QUIT_EDITOR
+[2016.11.29-06.27.20:674][932]LogExit: Preparing to exit.
+[2016.11.29-06.27.21:583][932]LogDirectoryWatcher: A directory notification for 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/' was aborted.
+[2016.11.29-06.27.21:636][932]LogExit: Editor shut down
+[2016.11.29-06.27.21:636][932]LogExit: Transaction tracking system shut down
+[2016.11.29-06.27.21:746][932]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.29-06.27.21:747][932]LogExit: Object subsystem successfully closed.
+[2016.11.29-06.27.21:766][932]LogD3D11RHI: Shutdown
+[2016.11.29-06.27.21:766][932]LogD3D11RHI: CleanupD3DDevice
+[2016.11.29-06.27.21:947][932]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.29-06.27.21:959][932]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.11.29-06.27.21:959][932]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD4D409F5-4440-891B-8E0D-33A60E9353E2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.0-3195953%2B%2B%2BUE4%2BRelease-4.14&UserID=2b45417b4a2c40e7267d17b8c9f80d65%7C621a8bdf413a4e2cbc370117c7a08d5b%7C72925a16-b029-43c8-86c0-a45ec1092b03&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.11.29-06.27.21:990][932]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2016.11.29-06.27.21:990][932]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2016.11.29-06.27.21:990][932]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2016.11.29-06.27.21:990][932]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (241)
+[2016.11.29-06.27.21:990][932]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2016.11.29-06.27.21:990][932]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2016.11.29-06.27.21:990][932]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2016.11.29-06.27.21:990][932]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2016.11.29-06.27.21:991][932]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2016.11.29-06.27.21:992][932]LogDirectoryWatcher: A directory notification for 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Collections/' was aborted.
+[2016.11.29-06.27.21:992][932]LogDirectoryWatcher: A directory notification for 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Developers/WhisperedLullaby/Collections/' was aborted.
+[2016.11.29-06.27.21:992][932]LogDirectoryWatcher: A directory notification for 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Collections/' was aborted.
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2016.11.29-06.27.21:992][932]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module Media (215)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2016.11.29-06.27.21:993][932]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2016.11.29-06.27.22:504][932]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2016.11.29-06.27.22:557][932]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2016.11.29-06.27.22:557][932]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2016.11.29-06.27.22:557][932]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2016.11.29-06.27.22:557][932]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2016.11.29-06.27.22:557][932]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2016.11.29-06.27.22:557][932]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2016.11.29-06.27.22:557][932]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2016.11.29-06.27.22:557][932]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2016.11.29-06.27.22:557][932]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2016.11.29-06.27.22:563][932]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2016.11.29-06.27.22:660][932]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2016.11.29-06.27.22:661][932]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2016.11.29-06.27.22:661][932]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2016.11.29-06.27.22:662][932]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2016.11.29-06.27.22:662][932]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2016.11.29-06.27.22:762][932]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2016.11.29-06.27.22:863][932]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2016.11.29-06.27.22:865][932]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2016.11.29-06.27.22:865][932]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2016.11.29-06.27.22:865][932]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2016.11.29-06.27.22:865][932]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2016.11.29-06.27.22:865][932]LogModuleManager: Shutting down and abandoning module Core (75)
+[2016.11.29-06.27.22:865][932]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2016.11.29-06.27.22:865][932]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.11.29-06.27.22:865][932]LogDirectoryWatcher: A directory notification for '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/' was aborted.
+[2016.11.29-06.27.22:865][932]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.11.29-06.27.22:866][932]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2016.11.29-06.27.22:978][932]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2016.11.29-06.27.22:978][932]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2016.11.29-06.27.22:978][932]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2016.11.29-06.27.22:978][932]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2016.11.29-06.27.22:978][932]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2016.11.29-06.27.22:978][932]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2016.11.29-06.27.22:978][932]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2016.11.29-06.27.22:978][932]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2016.11.29-06.27.22:981][932]LogDerivedDataCache: Shutdown
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2016.11.29-06.27.22:981][932]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.11.29-06.27.22:982][932]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.29-06.27.22:982][932]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2016.11.29-06.27.22:984][932]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.29-06.27.22:984][932]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.29-06.27.22:984][932]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.29-06.27.22:984][932]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.29-06.27.22:984][932]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.29-06.27.22:984][932]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.29-06.27.22:985][932]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.29-06.27.22:985][932]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.29-06.27.22:985][932]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.29-06.27.22:985][932]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.29-06.27.22:985][932]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.29-06.27.22:985][932]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.29-06.27.22:985][932]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.29-06.27.22:985][932]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.29-06.27.22:985][932]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.29-06.27.22:985][932]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.29-06.27.22:987][932]LogExit: Exiting.
+[2016.11.29-06.27.22:991][932]Log file closed, 11/29/16 01:27:22
