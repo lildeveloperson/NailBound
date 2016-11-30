@@ -1,0 +1,490 @@
+﻿Log file open, 11/30/16 02:47:10
+LogInit:Display: Running engine for game: NailBound
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-745582928) SRandInit(-745582928).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074139
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3195953
+LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.30-07.47.10:813][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.30-07.47.10:813][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.30-07.47.10:823][  0]LogInit: Computer: WEAK
+[2016.11.30-07.47.10:823][  0]LogInit: User: WhisperedLullaby
+[2016.11.30-07.47.10:823][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.30-07.47.10:823][  0]LogInit: High frequency timer resolution =3.117189 MHz
+[2016.11.30-07.47.10:823][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.30-07.47.10:823][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.30-07.47.10:823][  0]LogMemory: Process Physical Memory: 264.80 MB used, 264.80 MB peak
+[2016.11.30-07.47.10:823][  0]LogMemory: Process Virtual Memory: 262.80 MB used, 262.80 MB peak
+[2016.11.30-07.47.10:823][  0]LogMemory: Physical Memory: 5461.96 MB used,  10868.93 MB free, 16330.89 MB total
+[2016.11.30-07.47.10:823][  0]LogMemory: Virtual Memory: 661.46 MB used,  10868.93 MB free, 134217728.00 MB total
+[2016.11.30-07.47.10:847][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.30-07.47.11:447][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.30-07.47.11:471][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 480 Graphics' (Feature Level 11_0)
+[2016.11.30-07.47.11:471][  0]LogD3D11RHI:       8140/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.11.30-07.47.11:472][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.30-07.47.11:472][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.30-07.47.11:472][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.30-07.47.11:480][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.30-07.47.11:480][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2016.11.30-07.47.11:480][  0]LogWindows: EnumDisplayDevices:
+[2016.11.30-07.47.11:480][  0]LogWindows:    0. 'Radeon (TM) RX 480 Graphics' (P:1 D:1)
+[2016.11.30-07.47.11:480][  0]LogWindows:    1. 'Radeon (TM) RX 480 Graphics' (P:0 D:1)
+[2016.11.30-07.47.11:481][  0]LogWindows:    2. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.30-07.47.11:481][  0]LogWindows:    3. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.30-07.47.11:481][  0]LogWindows:    4. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.30-07.47.11:481][  0]LogWindows:    5. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.11.30-07.47.11:481][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.11.30-07.47.11:481][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 480 Graphics
+[2016.11.30-07.47.11:481][  0]LogD3D11RHI:   Driver Version: Crimson 16.9.2 (internal:21.19.137.1, unified:21.19.137.1)
+[2016.11.30-07.47.11:481][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.11.30-07.47.11:481][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.30-07.47.11:497][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.30-07.47.11:507][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2016.11.30-07.47.11:508][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Intermediate/Shaders/WorkingDirectory/18484/).
+[2016.11.30-07.47.11:508][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/WhisperedLullaby/AppData/Local/Temp/UnrealShaderWorkingDir/F69AFA3B46F63EA25991A3813F14A5A0/'.
+[2016.11.30-07.47.11:508][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.30-07.47.12:429][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.30-07.47.12:481][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.11.30-07.47.12:534][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.11.30-07.47.12:585][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.11.30-07.47.12:635][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.11.30-07.47.12:686][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.30-07.47.12:737][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.30-07.47.12:788][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.30-07.47.12:830][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.30-07.47.12:880][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.30-07.47.12:929][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.30-07.47.12:980][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.30-07.47.13:029][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.30-07.47.13:079][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.30-07.47.13:131][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.30-07.47.13:233][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.30-07.47.13:233][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.30-07.47.13:270][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.30-07.47.13:352][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.30-07.47.13:387][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.30-07.47.13:436][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.30-07.47.13:486][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.30-07.47.13:535][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.30-07.47.13:584][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.30-07.47.13:584][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.30-07.47.13:957][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.30-07.47.14:001][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.30-07.47.14:001][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.11.30-07.47.14:001][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.30-07.47.14:001][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.30-07.47.14:001][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.30-07.47.14:001][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.30-07.47.14:015][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.30-07.47.14:028][  0]LogDerivedDataCache: Using Local data cache path C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.30-07.47.14:195][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.30-07.47.14:197][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.30-07.47.14:381][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.11.30-07.47.14:421][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.11.30-07.47.14:462][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.11.30-07.47.14:462][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.11.30-07.47.14:462][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.30-07.47.14:920][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: nailbound, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3761550360
+[2016.11.30-07.47.14:973][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2016.11.30-07.47.15:027][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.030905 seconds
+[2016.11.30-07.47.15:033][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.11.30-07.47.15:033][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2016.11.30-07.47.15:033][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.30-07.47.15:094][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.30-07.47.15:855][  0]LogSlate: Using Freetype 2.6.0
+[2016.11.30-07.47.15:856][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.30-07.47.15:856][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.30-07.47.16:544][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.30-07.47.16:581][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.30-07.47.16:871][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.30-07.47.17:230][  0]SourceControl: Info Source control is disabled
+[2016.11.30-07.47.17:288][  0]SourceControl: Info Source control is disabled
+[2016.11.30-07.47.17:331][  0]SourceControl: Info Source control is disabled
+[2016.11.30-07.47.17:374][  0]SourceControl: Info Source control is disabled
+[2016.11.30-07.47.18:526][  0]LogEngine: Initializing Engine...
+[2016.11.30-07.47.18:526][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.30-07.47.18:743][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.30-07.47.18:764][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.30-07.47.18:787][  0]LogInit: FAudioDevice initialized.
+[2016.11.30-07.47.18:808][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.30-07.47.18:812][  0]LogInit: Texture streaming: Enabled
+[2016.11.30-07.47.18:984][  0]LogInit: Transaction tracking system initialized
+[2016.11.30-07.47.19:302][  0]BlueprintLog: New page: Editor Load
+[2016.11.30-07.47.20:117][  0]LocalizationService: Info Localization service is disabled
+[2016.11.30-07.47.20:718][  0]LogConsoleResponse:Display: 
+[2016.11.30-07.47.20:839][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.30-07.47.20:839][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.30-07.47.21:663][  0]LogFileCache: Scanning file cache for directory 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/' took 0.02s
+[2016.11.30-07.47.21:704][  0]SourceControl: Info Source control is disabled
+[2016.11.30-07.47.21:704][  0]Cmd: MAP LOAD FILE="../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Maps/MainMenu2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.30-07.47.21:704][  0]LightingResults: New page: Lighting Build
+[2016.11.30-07.47.21:743][  0]MapCheck: New page: Map Check
+[2016.11.30-07.47.21:743][  0]LightingResults: New page: Lighting Build
+[2016.11.30-07.47.21:944][  0]LogAIModule: Creating AISystem for world MainMenu2
+[2016.11.30-07.47.21:945][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.30-07.47.21:945][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.30-07.47.21:977][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.155ms to complete.
+[2016.11.30-07.47.21:977][  0]LogFileHelpers: Loading map 'MainMenu2' took 0.272
+[2016.11.30-07.47.22:059][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.30-07.47.22:134][  0]LogCollectionManager: Loaded 0 collections in 0.001412 seconds
+[2016.11.30-07.47.22:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Collections/' took 0.01s
+[2016.11.30-07.47.22:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Developers/WhisperedLullaby/Collections/' took 0.01s
+[2016.11.30-07.47.22:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Collections/' took 0.01s
+[2016.11.30-07.47.22:215][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.30-07.47.22:223][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2190 classes and 428 folders.
+[2016.11.30-07.47.22:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.30-07.47.22:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.30-07.47.22:260][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
+[2016.11.30-07.47.22:318][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.30-07.47.22:347][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.30-07.47.22:386][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.30-07.47.22:454][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.30-07.47.22:459][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.30-07.47.22:522][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.30-07.47.22:522][  0]LogLoad: (Engine Initialization) Total time: 13.06 seconds
+[2016.11.30-07.47.22:522][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2016.11.30-07.47.22:522][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.30-07.47.22:522][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.30-07.47.22:532][  0]LogOcInput: OculusInput pre-init called
+[2016.11.30-07.47.22:573][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.30-07.47.22:696][  0]LogRenderer: Reallocating scene render targets to support 1268x652 NumSamples 1 (Frame:2).
+[2016.11.30-07.47.22:752][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/' took 0.21s
+[2016.11.30-07.47.22:762][  1]LogAssetRegistry: Asset discovery search completed in 7.8099 seconds
+[2016.11.30-07.47.22:762][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.30-07.47.22:762][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2016.11.30-07.47.25:581][281]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2016.11.30-07.47.38:517][714]LogMetaData: Removing '/Game/MainMenuUI/PlayerSettings.PlayerSettings_C' ref from Metadata '/Game/MainMenuUI/OptionsMenu2.PackageMetaData'
+[2016.11.30-07.47.38:517][714]LogMetaData: Removing '/Game/MainMenuUI/PlayerSettings.SKEL_PlayerSettings_C' ref from Metadata '/Game/MainMenuUI/OptionsMenu2.PackageMetaData'
+[2016.11.30-07.47.38:538][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuUI/PlayerSettings" FILE="../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/MainMenuUI/PlayerSettings.uasset" SILENT=true
+[2016.11.30-07.47.38:557][714]LogSavePackage: Save=17.16ms
+[2016.11.30-07.47.38:557][714]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/PlayerSettingsD044682641DD0C2C518AA3BCCD4FC738.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/MainMenuUI/PlayerSettings.uasset'
+[2016.11.30-07.47.38:560][714]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/MainMenuUI/PlayerSettings.uasset
+[2016.11.30-07.47.38:724][714]LogSavePackage: Save=29.55ms
+[2016.11.30-07.47.38:724][714]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/GameinfoInstance4BBFAFB74906427A9F4C29A9B48A08F7.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/AllLevels/GameinfoInstance.uasset'
+[2016.11.30-07.47.38:726][714]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/AllLevels/GameinfoInstance.uasset
+[2016.11.30-07.47.58:851][101]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.30-07.47.58:851][101]LoadErrors: Info Failed to load /Game/2DSideScroller/Sprites/rotator_Sprite.rotator_Sprite Referenced by Gun_GEN_VARIABLE
+[2016.11.30-07.47.58:851][101]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/rotator_Sprite.uasset.
+[2016.11.30-07.47.58:851][101]LoadErrors:Error: Error /Game/2DSideScroller/Sprites/rotator_Sprite : Can't find file for asset. /Paper2D/TranslucentUnlitSpriteMaterial
+[2016.11.30-07.47.58:852][101]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.30-07.47.58:852][101]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/rotator_Sprite.uasset.
+[2016.11.30-07.47.58:856][101]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.30-07.47.58:856][101]LoadErrors: Info Failed to load /Game/2DSideScrollerBP/Blueprints/Ultimate_Projectile.Ultimate_Projectile_C Referenced by 2DSideScrollerCharacter
+[2016.11.30-07.47.58:856][101]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/ultimate_Sprite.uasset.
+[2016.11.30-07.47.58:856][101]LoadErrors:Error: Error /Game/2DSideScroller/Sprites/ultimate_Sprite : Can't find file for asset. /Paper2D/TranslucentUnlitSpriteMaterial
+[2016.11.30-07.47.58:857][101]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.30-07.47.58:857][101]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScroller/Sprites/ultimate_Sprite.uasset.
+[2016.11.30-07.47.59:093][101]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.30-07.47.59:093][101]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
+[2016.11.30-07.47.59:093][101]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.30-07.47.59:093][101]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.11.30-07.47.59:093][101]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
+[2016.11.30-07.47.59:094][101]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.11.30-07.49.45:829][298]SourceControl: Info On branch master
+[2016.11.30-07.49.45:829][298]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.30-07.49.45:829][298]SourceControl: Info Changes to be committed:
+[2016.11.30-07.49.45:829][298]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.11.30-07.49.45:829][298]SourceControl: Info 	deleted:    NailBound/Content/2DSideScrollerBP/2DSideScrollerOverview.uasset
+[2016.11.30-07.49.45:829][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/AllLevels/GameinfoInstance.uasset
+[2016.11.30-07.49.45:829][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/AllLevels/NewBlueprint.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/AllLevels/PlayerInfo.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/AllLevels/PlayerSaveGame.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Blueprints/GameplayGM.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Blueprints/GampleplayPC.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/Blueprints/SkullZor.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Blueprints/hexSprite.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	copied:     NailBound/Content/2DSideScrollerBP/Blueprints/SkullZor.uasset -> NailBound/Content/2DSideScrollerBP/Characters/0_Base.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	copied:     NailBound/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset -> NailBound/Content/2DSideScrollerBP/Characters/2DSideScrollerCharacter.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/AlsoSkullzorbutDifferentBP.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/SkullZor.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/SkullzorBP.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/SkullzorBlack.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/SkullzorBlue.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/SkullzorGreen.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/SkullzorPink.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/SkullzorRed.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/SkullzorReloadedBP.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/TankMech.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/TankMechBP.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/cantdelete/SkullzorReloadedBP.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/cantdelete/TankMech.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Characters/cantdelete/TankMechBP.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Lobby/GameplayGM.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	new file:   NailBound/Content/2DSideScrollerBP/Lobby/GampleplayPC.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/hexSprite.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info Changes not staged for commit:
+[2016.11.30-07.49.45:830][298]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.11.30-07.49.45:830][298]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Config/DefaultEngine.ini
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/AllLevels/GameinfoInstance.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/AllLevels/PlayerInfo.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/AllLevels/PlayerSaveGame.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/Blueprints/GameplayGM.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/Characters/0_Base.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/Characters/2DSideScrollerCharacter.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	deleted:    NailBound/Content/2DSideScrollerBP/Lobby/GameplayGM.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/2DSideScrollerBP/Lobby/GampleplayPC.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	deleted:    NailBound/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Content/HUD/MainHud.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Intermediate/CachedAssetRegistry.bin
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Saved/AutoScreenshot.png
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Saved/Autosaves/PackageRestoreData.json
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/Editor.ini
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Saved/Config/Windows/SourceControlSettings.ini
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	deleted:    NailBound/Saved/Logs/NailBound-backup-2016.11.27-20.11.36.log
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	deleted:    NailBound/Saved/Logs/NailBound-backup-2016.11.29-03.10.13.log
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound.log
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	modified:   NailBound/Saved/Logs/NailBound_2.log
+[2016.11.30-07.49.45:830][298]SourceControl: Info Untracked files:
+[2016.11.30-07.49.45:830][298]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScroller/Textures/BlackTHUMB.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScroller/Textures/BlueTHUMB.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScroller/Textures/DifferentyTHUMB.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScroller/Textures/GreenTHUMB.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScroller/Textures/NormalTHUMB.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScroller/Textures/PinkTHUMB.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScroller/Textures/RedTHUMB.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScroller/Textures/YellowTHUMB.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScroller/Textures/arena_01THUMB.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScroller/Textures/arena_02THUMB.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScrollerBP/Blueprints/NewBlueprint.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScrollerBP/Lobby/GameplayGM_2.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScrollerBP/Lobby/LobbyGM.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScrollerBP/Lobby/LobbyPC.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScrollerBP/Maps/Arena_01.umap
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScrollerBP/Maps/Arena_02.umap
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScrollerBP/Maps/Lobby.umap
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScrollerBP/Maps/MainMenu2.umap
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/2DSideScrollerBP/Maps/TravelMap.umap
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/HUD/ChatText.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/HUD/ChatWindow.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/HUD/GameplayChat.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/HUD/LoadingScreen.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/LobbyUI/
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Content/MainMenuUI/
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/AllLevels/
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Characters/
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Lobby/
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/MainMenu2_Auto3.umap
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Saved/Autosaves/Game/MainMenuUI/
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Saved/Backup/0_Base_2016-11-29-23-52-01.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerCharacter_2016-11-29-23-44-15.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerCharacter_2016-11-29-23-52-01.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerCharacter_2016-11-29-23-57-31.uasset
+[2016.11.30-07.49.45:830][298]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerExampleMap_2016-11-29-23-45-07.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerExampleMap_2016-11-29-23-52-01.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/2DSideScrollerExampleMap_2016-11-30-00-04-38.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/Arena_01_2016-11-30-00-15-19.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/Arena_01_2016-11-30-01-16-54.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/Arena_02_2016-11-30-00-26-21.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/Arena_02_2016-11-30-01-24-15.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/GameinfoInstance_2016-11-30-00-53-37.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/GameinfoInstance_2016-11-30-01-03-21.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/GameinfoInstance_2016-11-30-01-09-01.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/GameinfoInstance_2016-11-30-02-47-38.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/GameplayGM_2016-11-30-01-23-00.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/HostMenu_2016-11-30-02-15-05.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/HostMenu_2016-11-30-02-26-42.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/HostMenu_2016-11-30-02-33-54.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/LobbyGM_2016-11-30-01-48-28.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/LobbyGM_2016-11-30-02-04-25.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/LobbyGM_2016-11-30-02-38-05.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/Lobby_2016-11-30-01-48-13.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/MainHud_2016-11-30-00-17-29.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/MainMenu2_2016-11-30-01-09-53.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/MainMenu2_2016-11-30-02-01-41.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/MainMenu2_2016-11-30-02-04-25.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/MainMenu2_2016-11-30-02-38-05.umap
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/OptionsMenu2_2016-11-30-02-42-29.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/PlayerInfo_2016-11-30-01-12-26.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/PlayerSaveGame_2016-11-30-01-15-32.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/SkullZor_2016-11-29-23-44-44.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/SkullzorReloadedBP_2016-11-29-23-51-48.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Backup/hexSprite_2016-11-29-23-34-47.uasset
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Config/WorldState/1283972050.json
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Config/WorldState/1739229201.json
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Config/WorldState/1796229104.json
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Config/WorldState/2418910186.json
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Config/WorldState/2497433221.json
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-23.34.04.log
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.29-23.53.10.log
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Logs/NailBound-backup-2016.11.30-02.47.10.log
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Logs/NailBound_2-backup-2016.11.29-23.53.54.log
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-27DA2D4D47B80D79AB11B2BFD7409A38/
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-B0872DE44068A3C29D22B0B8A81684A4/
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-BAA7E1C84C9AC7B9E20F1CB22773E0FA/
+[2016.11.30-07.49.45:831][298]SourceControl: Info 	NailBound/Saved/Logs/UE4CC-Windows-F33EAAC14C1218C4366BB58EAF78CBAC/
+[2016.11.30-07.49.51:307][944]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.14/Engine/Content/: 'C:/Program Files (x86)/Epic Games/4.14/Engine/Content/' is outside repository
+[2016.11.30-07.49.51:395][944]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/NailBound.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2016.11.30-07.49.51:413][944]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.018 s
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: === Handled ensure: ===
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: 
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 624]
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/NailBound.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: Stack: 
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-Core.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-Core.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-Core.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-SourceControl.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-SourceControl.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-SourceControl.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor.exe
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor.exe
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor.exe
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor.exe
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: UE4Editor.exe
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: KERNEL32.DLL
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: ntdll.dll
+[2016.11.30-07.49.51:413][944]LogOutputDevice:Error: 
+[2016.11.30-07.49.51:418][944]LogStats:                SubmitErrorReport -  0.000 s
