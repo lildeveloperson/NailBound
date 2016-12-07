@@ -1,9 +1,9 @@
-﻿Log file open, 12/05/16 02:21:43
+﻿Log file open, 12/07/16 02:58:06
 LogInit:Display: Running engine for game: NailBound
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(389076991) SRandInit(389076991).
+LogInit:Display: RandInit(383876450) SRandInit(383876450).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.079467
+LogStats: Stats thread started at 0.094085
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -145,1197 +145,296 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.12.05-07.21.43:637][  0]LogInit: Selected Device Profile: [Windows]
-[2016.12.05-07.21.43:637][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.12.05-07.21.43:641][  0]LogInit: Computer: WEAK
-[2016.12.05-07.21.43:641][  0]LogInit: User: WhisperedLullaby
-[2016.12.05-07.21.43:641][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.12.05-07.21.43:641][  0]LogInit: High frequency timer resolution =3.117186 MHz
-[2016.12.05-07.21.43:641][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.12.05-07.21.43:641][  0]LogMemory: Platform Memory Stats for Windows
-[2016.12.05-07.21.43:641][  0]LogMemory: Process Physical Memory: 301.48 MB used, 301.48 MB peak
-[2016.12.05-07.21.43:641][  0]LogMemory: Process Virtual Memory: 281.14 MB used, 281.14 MB peak
-[2016.12.05-07.21.43:641][  0]LogMemory: Physical Memory: 9246.62 MB used,  7084.27 MB free, 16330.89 MB total
-[2016.12.05-07.21.43:641][  0]LogMemory: Virtual Memory: 769.30 MB used,  7084.27 MB free, 134217728.00 MB total
-[2016.12.05-07.21.43:667][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.12.05-07.21.44:111][  0]LogD3D11RHI: D3D11 adapters:
-[2016.12.05-07.21.44:145][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 480 Graphics' (Feature Level 11_0)
-[2016.12.05-07.21.44:145][  0]LogD3D11RHI:       8140/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2016.12.05-07.21.44:146][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.12.05-07.21.44:146][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.12.05-07.21.44:146][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.12.05-07.21.44:156][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.12.05-07.21.44:156][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
-[2016.12.05-07.21.44:156][  0]LogWindows: EnumDisplayDevices:
-[2016.12.05-07.21.44:156][  0]LogWindows:    0. 'Radeon (TM) RX 480 Graphics' (P:1 D:1)
-[2016.12.05-07.21.44:156][  0]LogWindows:    1. 'Radeon (TM) RX 480 Graphics' (P:0 D:1)
-[2016.12.05-07.21.44:156][  0]LogWindows:    2. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2016.12.05-07.21.44:157][  0]LogWindows:    3. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2016.12.05-07.21.44:157][  0]LogWindows:    4. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2016.12.05-07.21.44:157][  0]LogWindows:    5. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2016.12.05-07.21.44:157][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2016.12.05-07.21.44:157][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 480 Graphics
-[2016.12.05-07.21.44:157][  0]LogD3D11RHI:   Driver Version: Crimson 16.9.2 (internal:21.19.137.1, unified:21.19.137.1)
-[2016.12.05-07.21.44:157][  0]LogD3D11RHI:      Driver Date: 9-16-2016
-[2016.12.05-07.21.44:157][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.12.05-07.21.44:176][  0]LogD3D11RHI: Async texture creation enabled
-[2016.12.05-07.21.44:186][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2016.12.05-07.21.44:187][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Intermediate/Shaders/WorkingDirectory/5988/).
-[2016.12.05-07.21.44:187][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/WhisperedLullaby/AppData/Local/Temp/UnrealShaderWorkingDir/4840D4C342949425C41E50B433A1A681/'.
-[2016.12.05-07.21.44:187][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.12.05-07.21.45:169][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.12.05-07.21.45:226][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.12.05-07.21.45:284][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.12.05-07.21.45:334][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.12.05-07.21.45:334][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.12.05-07.21.45:786][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.12.05-07.21.45:833][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2016.12.05-07.21.45:833][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2016.12.05-07.21.45:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.12.05-07.21.45:833][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.12.05-07.21.45:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.12.05-07.21.45:833][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.12.05-07.21.45:849][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.12.05-07.21.45:861][  0]LogDerivedDataCache: Using Local data cache path C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.12.05-07.21.46:118][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
-[2016.12.05-07.21.46:123][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.005424 seconds
-[2016.12.05-07.21.46:139][  0]LogInit: Selected Device Profile: [Windows]
-[2016.12.05-07.21.46:141][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2016.12.05-07.21.46:346][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2016.12.05-07.21.46:393][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2016.12.05-07.21.46:441][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2016.12.05-07.21.46:441][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2016.12.05-07.21.46:441][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.12.05-07.21.46:874][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: nailbound, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3761550360
-[2016.12.05-07.21.47:698][  0]LogSlate: Using Freetype 2.6.0
-[2016.12.05-07.21.47:698][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.12.05-07.21.47:698][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.12.05-07.21.47:814][  0]LogMoviePlayer: Initializing movie player
-[2016.12.05-07.21.47:868][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.12.05-07.21.47:897][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Movies/Default_Startup.mp4
-[2016.12.05-07.21.48:062][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2016.12.05-07.21.48:104][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.12.05-07.21.48:247][  0]SourceControl: Info Source control is disabled
-[2016.12.05-07.21.48:247][  0]SourceControl: Info Source control is disabled
-[2016.12.05-07.21.48:295][  0]SourceControl: Info Source control is disabled
-[2016.12.05-07.21.48:978][  0]LogUObjectArray: 33503 objects as part of root set at end of initial load.
-[2016.12.05-07.21.48:978][  0]LogUObjectAllocator: 7631608 out of 0 bytes used by permanent object pool.
-[2016.12.05-07.21.48:978][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.12.05-07.21.49:078][  0]LogEngine: Initializing Engine...
-[2016.12.05-07.21.49:079][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.12.05-07.21.49:200][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.12.05-07.21.49:209][  0]LogInit: FAudioDevice initialized.
-[2016.12.05-07.21.49:225][  0]LogInit: Texture streaming: Enabled
-[2016.12.05-07.21.49:236][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.12.05-07.21.49:774][  0]LogInit:Display: Game Engine Initialized.
-[2016.12.05-07.21.49:928][  0]LogInit:Display: Starting Game.
-[2016.12.05-07.21.49:928][  0]LogNet: Browse: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMainMenu2?Name=Player
-[2016.12.05-07.21.49:929][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMainMenu2?Name=Player
-[2016.12.05-07.21.49:948][  0]LogMemory: Platform Memory Stats for Windows
-[2016.12.05-07.21.49:948][  0]LogMemory: Process Physical Memory: 683.43 MB used, 685.21 MB peak
-[2016.12.05-07.21.49:948][  0]LogMemory: Process Virtual Memory: 778.00 MB used, 778.00 MB peak
-[2016.12.05-07.21.49:948][  0]LogMemory: Physical Memory: 9439.16 MB used,  6891.73 MB free, 16330.89 MB total
-[2016.12.05-07.21.49:948][  0]LogMemory: Virtual Memory: 1473.94 MB used,  6891.73 MB free, 134217728.00 MB total
-[2016.12.05-07.21.49:948][  0]LogMemory: 
-[2016.12.05-07.21.49:948][  0]Allocator Stats for TBB: (not implemented)
-[2016.12.05-07.21.50:193][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.21.50:193][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
-[2016.12.05-07.21.50:193][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.21.50:193][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.21.50:193][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
-[2016.12.05-07.21.50:193][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.21.50:219][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.21.50:219][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by anglebar_Sprite
-[2016.12.05-07.21.50:219][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.21.50:220][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.21.50:220][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by anglebar_Sprite
-[2016.12.05-07.21.50:220][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.21.50:228][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.21.50:228][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
-[2016.12.05-07.21.50:228][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.21.50:228][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.21.50:228][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
-[2016.12.05-07.21.50:228][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.21.50:521][  0]LogAIModule: Creating AISystem for world MainMenu2
-[2016.12.05-07.21.50:521][  0]LogLoad: Game class is 'GameplayGM_C'
-[2016.12.05-07.21.50:522][  0]LogWorld: Bringing World /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMainMenu2.MainMenu2 up for play (max tick rate 0) at 2016.12.05-02.21.50
-[2016.12.05-07.21.50:522][  0]LogWorld: Bringing up level for play took: 0.000573
-[2016.12.05-07.21.50:529][  0]LogLoad: Took 0.600082 seconds to LoadMap(/Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMainMenu2)
-[2016.12.05-07.21.50:884][  0]LogLoad: (Engine Initialization) Total time: 8.90 seconds
-[2016.12.05-07.21.50:884][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.30 seconds
-[2016.12.05-07.21.50:884][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.12.05-07.21.50:884][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.12.05-07.21.50:900][  0]LogOcInput: OculusInput pre-init called
-[2016.12.05-07.21.50:966][  0]LogBlueprintUserMessages: [MainHud_C_0] Fuel is300.0
-[2016.12.05-07.21.50:966][  0]LogBlueprintUserMessages: [MainHud_C_0] Fuel is300.0
-[2016.12.05-07.21.50:974][  1]LogBlueprintUserMessages: [MainHud_C_0] Fuel is299.980164
-[2016.12.05-07.21.51:001][  2]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
-[2016.12.05-07.21.51:058][  2]LogBlueprintUserMessages: [MainHud_C_0] Fuel is299.884827
-[2016.12.05-07.21.51:074][  3]LogBlueprintUserMessages: [MainHud_C_0] Fuel is299.768433
-[2016.12.05-07.21.51:090][  4]LogBlueprintUserMessages: [MainHud_C_0] Fuel is299.629242
-[2016.12.05-07.21.51:106][  5]LogBlueprintUserMessages: [MainHud_C_0] Fuel is299.46521
-[2016.12.05-07.21.51:122][  6]LogBlueprintUserMessages: [MainHud_C_0] Fuel is299.274261
-[2016.12.05-07.21.51:139][  7]LogBlueprintUserMessages: [MainHud_C_0] Fuel is299.054291
-[2016.12.05-07.21.51:155][  8]LogBlueprintUserMessages: [MainHud_C_0] Fuel is298.803345
-[2016.12.05-07.21.51:171][  9]LogBlueprintUserMessages: [MainHud_C_0] Fuel is298.519379
-[2016.12.05-07.21.51:187][ 10]LogBlueprintUserMessages: [MainHud_C_0] Fuel is298.200378
-[2016.12.05-07.21.51:203][ 11]LogBlueprintUserMessages: [MainHud_C_0] Fuel is297.844269
-[2016.12.05-07.21.51:219][ 12]LogBlueprintUserMessages: [MainHud_C_0] Fuel is297.449036
-[2016.12.05-07.21.51:235][ 13]LogBlueprintUserMessages: [MainHud_C_0] Fuel is297.012634
-[2016.12.05-07.21.51:252][ 14]LogBlueprintUserMessages: [MainHud_C_0] Fuel is296.53302
-[2016.12.05-07.21.51:267][ 15]LogBlueprintUserMessages: [MainHud_C_0] Fuel is296.008148
-[2016.12.05-07.21.51:283][ 16]LogBlueprintUserMessages: [MainHud_C_0] Fuel is295.436005
-[2016.12.05-07.21.51:301][ 17]LogBlueprintUserMessages: [MainHud_C_0] Fuel is294.814484
-[2016.12.05-07.21.51:316][ 18]LogBlueprintUserMessages: [MainHud_C_0] Fuel is294.141571
-[2016.12.05-07.21.51:332][ 19]LogBlueprintUserMessages: [MainHud_C_0] Fuel is293.415253
-[2016.12.05-07.21.51:348][ 20]LogBlueprintUserMessages: [MainHud_C_0] Fuel is292.633484
-[2016.12.05-07.21.51:365][ 21]LogBlueprintUserMessages: [MainHud_C_0] Fuel is291.79422
-[2016.12.05-07.21.51:380][ 22]LogBlueprintUserMessages: [MainHud_C_0] Fuel is290.895416
-[2016.12.05-07.21.51:398][ 23]LogBlueprintUserMessages: [MainHud_C_0] Fuel is289.932373
-[2016.12.05-07.21.51:413][ 24]LogBlueprintUserMessages: [MainHud_C_0] Fuel is288.905609
-[2016.12.05-07.21.51:431][ 25]LogBlueprintUserMessages: [MainHud_C_0] Fuel is287.807953
-[2016.12.05-07.21.51:447][ 26]LogBlueprintUserMessages: [MainHud_C_0] Fuel is286.642365
-[2016.12.05-07.21.51:463][ 27]LogBlueprintUserMessages: [MainHud_C_0] Fuel is285.406799
-[2016.12.05-07.21.51:479][ 28]LogBlueprintUserMessages: [MainHud_C_0] Fuel is284.099243
-[2016.12.05-07.21.51:496][ 29]LogBlueprintUserMessages: [MainHud_C_0] Fuel is282.717621
-[2016.12.05-07.21.51:512][ 30]LogBlueprintUserMessages: [MainHud_C_0] Fuel is281.259918
-[2016.12.05-07.21.51:528][ 31]LogBlueprintUserMessages: [MainHud_C_0] Fuel is279.72406
-[2016.12.05-07.21.51:544][ 32]LogBlueprintUserMessages: [MainHud_C_0] Fuel is278.108032
-[2016.12.05-07.21.51:560][ 33]LogBlueprintUserMessages: [MainHud_C_0] Fuel is276.40979
-[2016.12.05-07.21.51:576][ 34]LogBlueprintUserMessages: [MainHud_C_0] Fuel is274.627319
-[2016.12.05-07.21.51:592][ 35]LogBlueprintUserMessages: [MainHud_C_0] Fuel is272.758545
-[2016.12.05-07.21.51:608][ 36]LogBlueprintUserMessages: [MainHud_C_0] Fuel is270.801453
-[2016.12.05-07.21.51:624][ 37]LogBlueprintUserMessages: [MainHud_C_0] Fuel is268.753998
-[2016.12.05-07.21.51:641][ 38]LogBlueprintUserMessages: [MainHud_C_0] Fuel is266.614105
-[2016.12.05-07.21.51:656][ 39]LogBlueprintUserMessages: [MainHud_C_0] Fuel is264.379761
-[2016.12.05-07.21.51:673][ 40]LogBlueprintUserMessages: [MainHud_C_0] Fuel is262.04892
-[2016.12.05-07.21.51:689][ 41]LogBlueprintUserMessages: [MainHud_C_0] Fuel is259.619537
-[2016.12.05-07.21.51:705][ 42]LogBlueprintUserMessages: [MainHud_C_0] Fuel is257.0896
-[2016.12.05-07.21.51:721][ 43]LogBlueprintUserMessages: [MainHud_C_0] Fuel is254.457047
-[2016.12.05-07.21.51:738][ 44]LogBlueprintUserMessages: [MainHud_C_0] Fuel is251.719849
-[2016.12.05-07.21.51:754][ 45]LogBlueprintUserMessages: [MainHud_C_0] Fuel is248.875961
-[2016.12.05-07.21.51:770][ 46]LogBlueprintUserMessages: [MainHud_C_0] Fuel is245.92334
-[2016.12.05-07.21.51:786][ 47]LogBlueprintUserMessages: [MainHud_C_0] Fuel is242.859955
-[2016.12.05-07.21.51:802][ 48]LogBlueprintUserMessages: [MainHud_C_0] Fuel is239.683762
-[2016.12.05-07.21.51:818][ 49]LogBlueprintUserMessages: [MainHud_C_0] Fuel is236.392288
-[2016.12.05-07.21.51:834][ 50]LogBlueprintUserMessages: [MainHud_C_0] Fuel is232.983917
-[2016.12.05-07.21.51:851][ 51]LogBlueprintUserMessages: [MainHud_C_0] Fuel is229.454727
-[2016.12.05-07.21.51:867][ 52]LogBlueprintUserMessages: [MainHud_C_0] Fuel is225.804535
-[2016.12.05-07.21.51:883][ 53]LogBlueprintUserMessages: [MainHud_C_0] Fuel is222.031296
-[2016.12.05-07.21.51:899][ 54]LogBlueprintUserMessages: [MainHud_C_0] Fuel is218.13298
-[2016.12.05-07.21.51:916][ 55]LogBlueprintUserMessages: [MainHud_C_0] Fuel is214.105133
-[2016.12.05-07.21.51:931][ 56]LogBlueprintUserMessages: [MainHud_C_0] Fuel is209.94809
-[2016.12.05-07.21.51:948][ 57]LogBlueprintUserMessages: [MainHud_C_0] Fuel is205.659805
-[2016.12.05-07.21.51:964][ 58]LogBlueprintUserMessages: [MainHud_C_0] Fuel is201.238235
-[2016.12.05-07.21.51:980][ 59]LogBlueprintUserMessages: [MainHud_C_0] Fuel is196.681351
-[2016.12.05-07.21.51:996][ 60]LogBlueprintUserMessages: [MainHud_C_0] Fuel is191.986786
-[2016.12.05-07.21.52:012][ 61]LogBlueprintUserMessages: [MainHud_C_0] Fuel is187.152817
-[2016.12.05-07.21.52:028][ 62]LogBlueprintUserMessages: [MainHud_C_0] Fuel is182.177399
-[2016.12.05-07.21.52:045][ 63]LogBlueprintUserMessages: [MainHud_C_0] Fuel is177.05719
-[2016.12.05-07.21.52:061][ 64]LogBlueprintUserMessages: [MainHud_C_0] Fuel is171.791428
-[2016.12.05-07.21.52:077][ 65]LogBlueprintUserMessages: [MainHud_C_0] Fuel is166.378082
-[2016.12.05-07.21.52:093][ 66]LogBlueprintUserMessages: [MainHud_C_0] Fuel is160.815125
-[2016.12.05-07.21.52:109][ 67]LogBlueprintUserMessages: [MainHud_C_0] Fuel is155.10051
-[2016.12.05-07.21.52:125][ 68]LogBlueprintUserMessages: [MainHud_C_0] Fuel is149.232193
-[2016.12.05-07.21.52:142][ 69]LogBlueprintUserMessages: [MainHud_C_0] Fuel is143.20813
-[2016.12.05-07.21.52:157][ 70]LogBlueprintUserMessages: [MainHud_C_0] Fuel is137.026291
-[2016.12.05-07.21.52:174][ 71]LogBlueprintUserMessages: [MainHud_C_0] Fuel is130.684631
-[2016.12.05-07.21.52:190][ 72]LogBlueprintUserMessages: [MainHud_C_0] Fuel is124.181114
-[2016.12.05-07.21.52:206][ 73]LogBlueprintUserMessages: [MainHud_C_0] Fuel is117.513702
-[2016.12.05-07.21.52:222][ 74]LogBlueprintUserMessages: [MainHud_C_0] Fuel is110.679855
-[2016.12.05-07.21.52:239][ 75]LogBlueprintUserMessages: [MainHud_C_0] Fuel is103.678024
-[2016.12.05-07.21.52:255][ 76]LogBlueprintUserMessages: [MainHud_C_0] Fuel is96.506172
-[2016.12.05-07.21.52:272][ 77]LogBlueprintUserMessages: [MainHud_C_0] Fuel is89.148964
-[2016.12.05-07.21.52:288][ 78]LogBlueprintUserMessages: [MainHud_C_0] Fuel is81.617493
-[2016.12.05-07.21.52:304][ 79]LogBlueprintUserMessages: [MainHud_C_0] Fuel is73.909729
-[2016.12.05-07.21.52:321][ 80]LogBlueprintUserMessages: [MainHud_C_0] Fuel is66.020515
-[2016.12.05-07.21.52:338][ 81]LogBlueprintUserMessages: [MainHud_C_0] Fuel is57.947784
-[2016.12.05-07.21.52:354][ 82]LogBlueprintUserMessages: [MainHud_C_0] Fuel is49.686363
-[2016.12.05-07.21.52:370][ 83]LogBlueprintUserMessages: [MainHud_C_0] Fuel is41.23505
-[2016.12.05-07.21.52:386][ 84]LogBlueprintUserMessages: [MainHud_C_0] Fuel is32.597042
-[2016.12.05-07.21.52:402][ 85]LogBlueprintUserMessages: [MainHud_C_0] Fuel is23.770302
-[2016.12.05-07.21.52:419][ 86]LogBlueprintUserMessages: [MainHud_C_0] Fuel is14.750961
-[2016.12.05-07.21.52:435][ 87]LogBlueprintUserMessages: [MainHud_C_0] Fuel is5.538789
-[2016.12.05-07.21.52:451][ 88]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:467][ 89]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:483][ 90]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:499][ 91]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:515][ 92]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:531][ 93]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:547][ 94]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:564][ 95]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:580][ 96]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:596][ 97]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:612][ 98]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:628][ 99]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:645][100]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:661][101]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:678][102]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:694][103]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:711][104]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:727][105]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:744][106]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:760][107]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:776][108]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:792][109]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:808][110]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:824][111]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:841][112]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:857][113]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:873][114]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:889][115]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:905][116]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:921][117]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:937][118]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:952][119]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:968][120]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:968][120]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.52:984][121]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:000][122]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:016][123]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:032][124]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:048][125]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:064][126]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:081][127]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:096][128]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:112][129]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:129][130]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:145][131]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:161][132]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:177][133]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:193][134]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:209][135]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:225][136]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:242][137]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:257][138]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:274][139]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:290][140]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:306][141]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:322][142]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:338][143]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:354][144]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:370][145]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:386][146]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:403][147]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:419][148]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:435][149]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:451][150]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:467][151]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:484][152]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:500][153]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:516][154]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:532][155]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:548][156]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:564][157]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:580][158]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:597][159]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:612][160]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:629][161]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:645][162]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:661][163]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:677][164]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:694][165]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:710][166]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:726][167]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:742][168]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:758][169]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:775][170]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:791][171]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:811][172]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:827][173]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:843][174]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:859][175]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:875][176]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:891][177]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:908][178]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:924][179]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:940][180]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:956][181]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:972][182]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.53:988][183]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:005][184]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:021][185]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:036][186]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:053][187]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:068][188]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:085][189]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:101][190]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:117][191]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:133][192]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:150][193]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:166][194]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:182][195]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:198][196]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:214][197]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:230][198]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:246][199]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:262][200]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:279][201]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:295][202]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:311][203]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:327][204]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:343][205]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:359][206]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:375][207]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:392][208]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:408][209]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:424][210]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:440][211]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:456][212]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:472][213]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:489][214]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:505][215]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:521][216]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:537][217]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:553][218]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:569][219]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:585][220]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:601][221]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:617][222]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:633][223]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:650][224]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:666][225]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:682][226]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:698][227]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:715][228]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:730][229]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:746][230]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:763][231]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:779][232]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:795][233]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:811][234]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:827][235]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:843][236]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:860][237]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:879][238]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:892][239]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:908][240]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:924][241]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:940][242]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:956][243]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:973][244]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:973][244]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.54:989][245]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:005][246]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:021][247]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:038][248]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:053][249]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:070][250]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:086][251]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:102][252]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:118][253]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:134][254]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:150][255]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:166][256]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:182][257]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:198][258]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:215][259]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:231][260]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:247][261]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:263][262]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:280][263]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:296][264]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:312][265]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:328][266]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:344][267]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:360][268]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:378][269]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:394][270]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:411][271]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:426][272]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:443][273]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:459][274]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:475][275]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:492][276]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:507][277]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:523][278]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:540][279]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:556][280]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:572][281]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:590][282]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:606][283]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:622][284]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:638][285]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:653][286]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:670][287]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:686][288]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:702][289]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:718][290]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:735][291]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:750][292]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:767][293]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:784][294]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:800][295]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:816][296]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:832][297]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:848][298]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:865][299]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:880][300]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:896][301]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:913][302]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:929][303]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:946][304]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:961][305]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:978][306]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.55:994][307]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:010][308]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:026][309]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:042][310]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:058][311]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:074][312]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:090][313]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:107][314]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:123][315]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:139][316]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:155][317]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:171][318]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:188][319]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:203][320]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:219][321]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:236][322]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:252][323]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:268][324]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:284][325]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:300][326]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:316][327]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:332][328]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:349][329]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:365][330]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:383][331]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:398][332]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:414][333]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:431][334]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:446][335]LogBlueprintUserMessages: [MainHud_C_0] Fuel is0.0
-[2016.12.05-07.21.56:461][336]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: nailbound, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 73830662
-[2016.12.05-07.21.56:464][336]LogInit: WinSock: I am Weak (192.168.2.2:0)
-[2016.12.05-07.21.56:751][336]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve Lobby.umap.
-[2016.12.05-07.21.56:809][336]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve Lobby.umap.
-[2016.12.05-07.21.56:809][336]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Lobby?listen
-[2016.12.05-07.21.56:809][336]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Lobby?listen
-[2016.12.05-07.21.56:841][336]LogMemory: Platform Memory Stats for Windows
-[2016.12.05-07.21.56:841][336]LogMemory: Process Physical Memory: 832.71 MB used, 917.03 MB peak
-[2016.12.05-07.21.56:841][336]LogMemory: Process Virtual Memory: 1199.69 MB used, 1278.00 MB peak
-[2016.12.05-07.21.56:841][336]LogMemory: Physical Memory: 9476.48 MB used,  6854.41 MB free, 16330.89 MB total
-[2016.12.05-07.21.56:841][336]LogMemory: Virtual Memory: 1914.68 MB used,  6854.41 MB free, 134217728.00 MB total
-[2016.12.05-07.21.56:841][336]LogMemory: 
-[2016.12.05-07.21.56:841][336]Allocator Stats for TBB: (not implemented)
-[2016.12.05-07.21.57:249][336]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.21.57:249][336]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
-[2016.12.05-07.21.57:249][336]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.21.57:249][336]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.21.57:249][336]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
-[2016.12.05-07.21.57:249][336]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.21.57:259][336]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.21.57:259][336]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
-[2016.12.05-07.21.57:259][336]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.21.57:259][336]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.21.57:259][336]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
-[2016.12.05-07.21.57:259][336]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.21.57:487][336]LogAIModule: Creating AISystem for world Lobby
-[2016.12.05-07.21.57:487][336]LogLoad: Game class is 'LobbyGM_C'
-[2016.12.05-07.21.57:488][336]LogNet:Display: SteamNetDriver_0 bound to port 7777
-[2016.12.05-07.21.57:488][336]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2016.12.05-07.21.57:488][336]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
-[2016.12.05-07.21.57:490][336]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Lobby.Lobby up for play (max tick rate 0) at 2016.12.05-02.21.57
-[2016.12.05-07.21.57:490][336]LogWorld: Bringing up level for play took: 0.001710
-[2016.12.05-07.21.57:491][336]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2016.12.05-07.21.57:496][336]LogLoad: Took 0.686637 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/Lobby)
-[2016.12.05-07.22.00:756][535]LogGameMode: ProcessServerTravel: /Game/2DSideScrollerBP/Maps/Arena_01
-[2016.12.05-07.22.00:756][535]LogWorld: SeamlessTravel to: /Game/2DSideScrollerBP/Maps/Arena_01
-[2016.12.05-07.22.00:781][536]LogAIModule: Creating AISystem for world TravelMap
-[2016.12.05-07.22.00:782][536]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
-[2016.12.05-07.22.00:783][536]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/TravelMap.TravelMap up for play (max tick rate 0) at 2016.12.05-02.22.00
-[2016.12.05-07.22.00:783][536]LogWorld: Bringing up level for play took: 0.000515
-[2016.12.05-07.22.00:783][536]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPC_C_0
-[2016.12.05-07.22.00:783][536]LogNet:Verbose: NotifyLoadedWorld Begin
-[2016.12.05-07.22.00:783][536]LogNet:VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2016.12.05-07.22.00:783][536]LogNet:Verbose: NotifyLoadedWorld End
-[2016.12.05-07.22.00:783][536]LogWorld: StartLoadingDestination to: /Game/2DSideScrollerBP/Maps/Arena_01
-[2016.12.05-07.22.00:814][537]LogStreaming:Error: Couldn't find file for package /Paper2D/TranslucentUnlitSpriteMaterial requested by async loading code. NameToLoad: /Paper2D/TranslucentUnlitSpriteMaterial
-[2016.12.05-07.22.00:830][537]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.22.00:830][537]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.22.00:830][537]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.22.00:830][537]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.22.00:831][537]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.22.00:831][537]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by anglebar_Sprite
-[2016.12.05-07.22.00:831][537]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.22.00:831][537]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.22.00:831][537]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by anglebar_Sprite
-[2016.12.05-07.22.00:831][537]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.22.01:236][547]LogAIModule: Creating AISystem for world Arena_01
-[2016.12.05-07.22.01:236][547]LogLoad: Game class is 'GameplayGM_C'
-[2016.12.05-07.22.01:238][547]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
-[2016.12.05-07.22.01:527][547]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Arena_01.Arena_01 up for play (max tick rate 0) at 2016.12.05-02.22.01
-[2016.12.05-07.22.01:546][547]LogWorld: Bringing up level for play took: 0.308909
-[2016.12.05-07.22.01:546][547]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPC_C_0
-[2016.12.05-07.22.01:546][547]LogNet:Verbose: NotifyLoadedWorld Begin
-[2016.12.05-07.22.01:546][547]LogNet:VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2016.12.05-07.22.01:546][547]LogNet:Verbose: NotifyLoadedWorld End
-[2016.12.05-07.22.01:546][547]LogWorld: ----SeamlessTravel finished in 0.79 seconds ------
-[2016.12.05-07.22.01:572][547]LogBlueprintUserMessages: [MainHud_C_0] Fuel is292.75647
-[2016.12.05-07.22.01:572][547]LogBlueprintUserMessages: [MainHud_C_0] Fuel is292.75647
-[2016.12.05-07.22.01:575][548]LogBlueprintUserMessages: [MainHud_C_0] Fuel is286.010223
-[2016.12.05-07.22.01:666][549]LogBlueprintUserMessages: [MainHud_C_0] Fuel is279.536377
-[2016.12.05-07.22.01:749][550]LogBlueprintUserMessages: [MainHud_C_0] Fuel is273.355072
-[2016.12.05-07.22.01:768][551]LogBlueprintUserMessages: [MainHud_C_0] Fuel is267.24527
-[2016.12.05-07.22.01:785][552]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:803][553]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:819][554]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:834][555]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:850][556]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:867][557]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:883][558]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:899][559]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:915][560]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:931][561]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:948][562]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:964][563]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:980][564]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.01:996][565]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:015][566]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:030][567]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:046][568]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:062][569]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:079][570]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:095][571]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:111][572]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:127][573]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:143][574]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:160][575]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:175][576]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:192][577]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:208][578]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:224][579]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:240][580]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:257][581]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:272][582]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:288][583]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:305][584]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:321][585]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:337][586]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:353][587]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:369][588]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:385][589]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:405][590]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:421][591]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:438][592]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:454][593]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:469][594]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:486][595]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:502][596]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:518][597]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:535][598]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:550][599]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:567][600]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:583][601]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:599][602]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:615][603]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:631][604]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:647][605]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:663][606]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:680][607]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:697][608]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:713][609]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:729][610]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:745][611]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:761][612]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:780][613]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:793][614]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:810][615]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:826][616]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:841][617]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:857][618]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:875][619]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:890][620]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:907][621]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:922][622]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:939][623]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:955][624]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:971][625]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.02:987][626]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:003][627]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:019][628]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:035][629]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:051][630]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:068][631]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:084][632]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:100][633]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:116][634]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:132][635]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:148][636]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:165][637]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:180][638]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:197][639]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:212][640]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:228][641]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:245][642]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:261][643]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:278][644]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:295][645]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:311][646]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:327][647]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:343][648]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:359][649]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:375][650]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:391][651]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:407][652]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:423][653]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:440][654]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:456][655]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:472][656]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:488][657]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:504][658]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:520][659]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:536][660]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:552][661]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:569][662]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:585][663]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:585][663]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:601][664]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:617][665]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:634][666]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:650][667]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:666][668]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:683][669]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:698][670]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:715][671]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:731][672]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:747][673]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:763][674]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:779][675]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:795][676]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:812][677]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:828][678]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:844][679]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:860][680]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:876][681]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:892][682]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:908][683]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:924][684]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:940][685]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:956][686]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:973][687]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.03:989][688]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:005][689]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:022][690]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:037][691]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:053][692]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:070][693]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:086][694]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:102][695]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:118][696]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:134][697]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:150][698]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:167][699]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:182][700]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:199][701]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:215][702]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:232][703]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:247][704]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:263][705]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:280][706]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:296][707]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:312][708]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:332][709]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:348][710]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:364][711]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:384][712]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:400][713]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:416][714]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:433][715]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:449][716]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:465][717]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:481][718]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:497][719]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:513][720]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:529][721]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:545][722]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:561][723]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:578][724]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:594][725]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:610][726]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:626][727]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:642][728]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:658][729]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:674][730]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:690][731]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:706][732]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:723][733]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:738][734]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:756][735]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:771][736]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:787][737]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:804][738]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:820][739]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:836][740]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:852][741]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:868][742]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:884][743]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:900][744]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:916][745]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:933][746]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:950][747]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:967][748]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:982][749]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.04:998][750]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:013][751]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:030][752]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:046][753]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:062][754]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:078][755]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:094][756]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:110][757]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:127][758]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:143][759]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:159][760]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:175][761]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:191][762]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:207][763]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:223][764]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:239][765]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:255][766]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:271][767]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:288][768]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:304][769]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:320][770]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:336][771]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:352][772]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:369][773]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:385][774]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:401][775]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:417][776]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:433][777]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:449][778]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:465][779]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:482][780]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:497][781]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:514][782]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:530][783]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:546][784]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:562][785]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:578][786]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:578][786]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:594][787]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:610][788]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:627][789]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:643][790]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:659][791]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:675][792]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:691][793]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:707][794]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:723][795]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:740][796]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:756][797]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:772][798]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:788][799]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:804][800]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:820][801]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:836][802]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:852][803]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:868][804]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:884][805]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:900][806]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:916][807]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:932][808]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:949][809]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:965][810]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:980][811]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.05:997][812]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:013][813]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:029][814]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:045][815]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:061][816]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:078][817]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:094][818]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:110][819]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:126][820]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:142][821]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:158][822]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:174][823]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:190][824]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:206][825]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:222][826]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:239][827]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:255][828]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:271][829]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:288][830]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:303][831]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:319][832]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:336][833]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:352][834]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:368][835]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:385][836]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:400][837]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:417][838]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:433][839]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:449][840]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:465][841]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:481][842]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:497][843]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:514][844]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:530][845]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:546][846]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:562][847]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:578][848]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:595][849]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:611][850]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:626][851]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:644][852]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:659][853]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:675][854]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:691][855]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:707][856]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:723][857]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:739][858]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:756][859]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:772][860]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:788][861]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:804][862]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:820][863]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:836][864]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:853][865]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:869][866]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:885][867]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:902][868]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:918][869]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:934][870]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:950][871]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:966][872]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:982][873]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.06:998][874]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:015][875]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:031][876]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:047][877]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:063][878]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:080][879]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:095][880]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:111][881]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:127][882]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:144][883]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:160][884]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:176][885]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:192][886]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:209][887]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:225][888]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:241][889]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:257][890]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:273][891]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:289][892]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:305][893]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:321][894]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:337][895]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:354][896]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:369][897]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:386][898]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:402][899]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:418][900]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:435][901]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:450][902]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:466][903]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:482][904]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:499][905]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:515][906]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:531][907]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:547][908]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:563][909]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:580][910]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:580][910]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:596][911]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:612][912]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:628][913]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:643][914]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:659][915]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:676][916]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:692][917]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:708][918]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:724][919]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:740][920]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:756][921]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:773][922]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:789][923]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:805][924]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:821][925]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:837][926]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:853][927]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:869][928]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:885][929]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:901][930]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:918][931]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:934][932]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:950][933]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:966][934]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:982][935]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.07:998][936]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:015][937]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:031][938]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:047][939]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:063][940]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:080][941]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:095][942]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:111][943]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:127][944]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:145][945]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:160][946]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:177][947]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:193][948]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:209][949]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:225][950]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:241][951]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:257][952]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:273][953]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:290][954]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:305][955]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:321][956]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:338][957]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:354][958]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:370][959]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:387][960]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:402][961]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:419][962]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:435][963]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:450][964]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:466][965]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:483][966]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:499][967]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:515][968]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:531][969]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:547][970]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:563][971]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:583][972]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:596][973]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:612][974]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:628][975]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:644][976]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:660][977]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:676][978]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:693][979]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:709][980]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:727][981]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:743][982]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:758][983]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:777][984]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:792][985]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:808][986]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:826][987]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:841][988]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:857][989]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:873][990]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.08:947][991]LogPackageName: SearchForPackageOnDisk took   0.058s, but failed to resolve mainMenuMap2.umap.
-[2016.12.05-07.22.09:004][991]LogPackageName: SearchForPackageOnDisk took   0.056s, but failed to resolve mainMenuMap2.umap.
-[2016.12.05-07.22.09:004][991]LogNet: Browse: /Game/2DSideScrollerBP/Maps/MainMenu2
-[2016.12.05-07.22.09:004][991]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/2DSideScrollerBP/Maps/MainMenu2
-[2016.12.05-07.22.09:004][991]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerBP/Maps/MainMenu2'
-[2016.12.05-07.22.09:004][991]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/2DSideScrollerBP/Maps/MainMenu2
-[2016.12.05-07.22.09:004][991]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerBP/Maps/MainMenu2'
-[2016.12.05-07.22.09:005][991]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.202606
-[2016.12.05-07.22.09:006][992]LogNet: Browse: /Game/2DSideScrollerBP/Maps/MainMenu2?closed
-[2016.12.05-07.22.09:006][992]LogNet: Failed; returning to Entry
-[2016.12.05-07.22.09:007][992]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/MainMenu2?closed
-[2016.12.05-07.22.09:007][992]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
-[2016.12.05-07.22.09:007][992]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
-[2016.12.05-07.22.09:007][992]LogExit: GameNetDriver SteamNetDriver_0 shut down
-[2016.12.05-07.22.09:081][992]LogMemory: Platform Memory Stats for Windows
-[2016.12.05-07.22.09:081][992]LogMemory: Process Physical Memory: 989.03 MB used, 990.17 MB peak
-[2016.12.05-07.22.09:081][992]LogMemory: Process Virtual Memory: 1660.95 MB used, 1662.14 MB peak
-[2016.12.05-07.22.09:081][992]LogMemory: Physical Memory: 9596.68 MB used,  6734.21 MB free, 16330.89 MB total
-[2016.12.05-07.22.09:081][992]LogMemory: Virtual Memory: 2373.68 MB used,  6734.21 MB free, 134217728.00 MB total
-[2016.12.05-07.22.09:081][992]LogMemory: 
-[2016.12.05-07.22.09:081][992]Allocator Stats for TBB: (not implemented)
-[2016.12.05-07.22.09:330][992]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.22.09:330][992]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by anglebar_Sprite
-[2016.12.05-07.22.09:330][992]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.22.09:330][992]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.22.09:330][992]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by anglebar_Sprite
-[2016.12.05-07.22.09:330][992]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.22.09:341][992]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.22.09:341][992]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
-[2016.12.05-07.22.09:341][992]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.22.09:341][992]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.22.09:341][992]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
-[2016.12.05-07.22.09:341][992]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.22.09:349][992]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.22.09:349][992]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
-[2016.12.05-07.22.09:349][992]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
-[2016.12.05-07.22.09:349][992]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.22.09:349][992]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
-[2016.12.05-07.22.09:349][992]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
-[2016.12.05-07.22.09:515][992]LogAIModule: Creating AISystem for world MainMenu2
-[2016.12.05-07.22.09:515][992]LogLoad: Game class is 'GameplayGM_C'
-[2016.12.05-07.22.09:516][992]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/MainMenu2.MainMenu2 up for play (max tick rate 0) at 2016.12.05-02.22.09
-[2016.12.05-07.22.09:516][992]LogWorld: Bringing up level for play took: 0.000477
-[2016.12.05-07.22.09:517][992]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.12.05-07.22.09:521][992]LogLoad: Took 0.513863 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/MainMenu2)
-[2016.12.05-07.22.09:567][992]LogBlueprintUserMessages: [MainHud_C_0] Fuel is299.946442
-[2016.12.05-07.22.09:567][992]LogBlueprintUserMessages: [MainHud_C_0] Fuel is299.946442
-[2016.12.05-07.22.09:569][993]LogBlueprintUserMessages: [MainHud_C_0] Fuel is298.89917
-[2016.12.05-07.22.09:585][994]LogBlueprintUserMessages: [MainHud_C_0] Fuel is297.785492
-[2016.12.05-07.22.09:601][995]LogBlueprintUserMessages: [MainHud_C_0] Fuel is296.603394
-[2016.12.05-07.22.09:618][996]LogBlueprintUserMessages: [MainHud_C_0] Fuel is295.35083
-[2016.12.05-07.22.09:634][997]LogBlueprintUserMessages: [MainHud_C_0] Fuel is294.025787
-[2016.12.05-07.22.09:650][998]LogBlueprintUserMessages: [MainHud_C_0] Fuel is292.62619
-[2016.12.05-07.22.09:666][999]LogBlueprintUserMessages: [MainHud_C_0] Fuel is291.150024
-[2016.12.05-07.22.09:682][  0]LogBlueprintUserMessages: [MainHud_C_0] Fuel is289.595245
-[2016.12.05-07.22.09:699][  1]LogBlueprintUserMessages: [MainHud_C_0] Fuel is287.959808
-[2016.12.05-07.22.09:715][  2]LogBlueprintUserMessages: [MainHud_C_0] Fuel is286.241547
-[2016.12.05-07.22.09:730][  3]LogBlueprintUserMessages: [MainHud_C_0] Fuel is284.438538
-[2016.12.05-07.22.09:747][  4]LogBlueprintUserMessages: [MainHud_C_0] Fuel is282.548767
-[2016.12.05-07.22.09:763][  5]LogBlueprintUserMessages: [MainHud_C_0] Fuel is280.57016
-[2016.12.05-07.22.09:779][  6]LogBlueprintUserMessages: [MainHud_C_0] Fuel is278.500702
-[2016.12.05-07.22.09:795][  7]LogBlueprintUserMessages: [MainHud_C_0] Fuel is276.338348
-[2016.12.05-07.22.09:812][  8]LogBlueprintUserMessages: [MainHud_C_0] Fuel is274.081055
-[2016.12.05-07.22.09:828][  9]LogBlueprintUserMessages: [MainHud_C_0] Fuel is271.726776
-[2016.12.05-07.22.09:844][ 10]LogBlueprintUserMessages: [MainHud_C_0] Fuel is269.273499
-[2016.12.05-07.22.09:860][ 11]LogBlueprintUserMessages: [MainHud_C_0] Fuel is266.719147
-[2016.12.05-07.22.09:876][ 12]LogBlueprintUserMessages: [MainHud_C_0] Fuel is264.061707
-[2016.12.05-07.22.09:893][ 13]LogBlueprintUserMessages: [MainHud_C_0] Fuel is261.299133
-[2016.12.05-07.22.09:909][ 14]LogBlueprintUserMessages: [MainHud_C_0] Fuel is258.429382
-[2016.12.05-07.22.09:925][ 15]LogBlueprintUserMessages: [MainHud_C_0] Fuel is255.450409
-[2016.12.05-07.22.09:941][ 16]LogBlueprintUserMessages: [MainHud_C_0] Fuel is252.360184
-[2016.12.05-07.22.09:957][ 17]LogBlueprintUserMessages: [MainHud_C_0] Fuel is249.156662
-[2016.12.05-07.22.09:973][ 18]LogBlueprintUserMessages: [MainHud_C_0] Fuel is245.837814
-[2016.12.05-07.22.09:989][ 19]LogBlueprintUserMessages: [MainHud_C_0] Fuel is242.401581
-[2016.12.05-07.22.10:005][ 20]LogBlueprintUserMessages: [MainHud_C_0] Fuel is238.845947
-[2016.12.05-07.22.10:021][ 21]LogBlueprintUserMessages: [MainHud_C_0] Fuel is235.168854
-[2016.12.05-07.22.10:037][ 22]LogBlueprintUserMessages: [MainHud_C_0] Fuel is231.368271
-[2016.12.05-07.22.10:054][ 23]LogBlueprintUserMessages: [MainHud_C_0] Fuel is227.442154
-[2016.12.05-07.22.10:194][ 24]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.12.05-07.22.10:197][ 24]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.12.05-07.22.10:198][ 24]LogEngine: All Windows Closed
-[2016.12.05-07.22.10:198][ 24]LogWindows: FPlatformMisc::RequestExit(0)
-[2016.12.05-07.22.10:198][ 25]LogMoviePlayer: Shutting down movie player
-[2016.12.05-07.22.11:087][ 25]LogExit: Preparing to exit.
-[2016.12.05-07.22.12:242][ 25]LogExit: Game engine shut down
-[2016.12.05-07.22.12:296][ 25]LogObj: Freed 0b from 0 cluster array pools.
-[2016.12.05-07.22.12:296][ 25]LogExit: Object subsystem successfully closed.
-[2016.12.05-07.22.12:308][ 25]LogD3D11RHI: Shutdown
-[2016.12.05-07.22.12:308][ 25]LogD3D11RHI: CleanupD3DDevice
-[2016.12.05-07.22.12:430][ 25]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (126)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module SequenceRecorder (125)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module AutomationController (124)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module AutomationWorker (123)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module GameplayDebugger (122)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module AITestSuite (121)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module AIModule (120)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (119)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (118)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module Media (117)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (116)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module CharacterAI (115)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module SessionServices (114)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (113)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (112)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module GeometryCache (111)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module Niagara (110)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module PortalServices (108)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module PortalRpc (107)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module MessagingRpc (106)
-[2016.12.05-07.22.12:443][ 25]LogModuleManager: Shutting down and abandoning module ProfilerService (105)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module TaskGraph (104)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module SlateRemote (103)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module SteamVRController (102)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module SteamVR (101)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (100)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module OculusLibrary (99)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module OculusInput (98)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (97)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module CableComponent (95)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (94)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module HTML5Networking (92)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module DesktopPlatform (91)
-[2016.12.05-07.22.12:561][ 25]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
-[2016.12.05-07.22.12:562][ 25]LogModuleManager: Shutting down and abandoning module HotReload (89)
-[2016.12.05-07.22.12:562][ 25]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
-[2016.12.05-07.22.12:562][ 25]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
-[2016.12.05-07.22.12:562][ 25]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
-[2016.12.05-07.22.12:562][ 25]LogModuleManager: Shutting down and abandoning module SourceControl (85)
-[2016.12.05-07.22.12:562][ 25]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
-[2016.12.05-07.22.12:562][ 25]LogModuleManager: Shutting down and abandoning module UdpMessaging (83)
-[2016.12.05-07.22.12:663][ 25]LogModuleManager: Shutting down and abandoning module TcpMessaging (82)
-[2016.12.05-07.22.13:069][ 25]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (81)
-[2016.12.05-07.22.13:069][ 25]LogModuleManager: Shutting down and abandoning module Paper2D (80)
-[2016.12.05-07.22.13:069][ 25]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (79)
-[2016.12.05-07.22.13:069][ 25]LogModuleManager: Shutting down and abandoning module WmfMedia (78)
-[2016.12.05-07.22.13:069][ 25]LogModuleManager: Shutting down and abandoning module MediaAssets (77)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (76)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (75)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module VREditor (74)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (73)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module Sequencer (69)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (68)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module MessageLog (67)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module SlateReflector (63)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module Slate (62)
-[2016.12.05-07.22.13:070][ 25]LogModuleManager: Shutting down and abandoning module EditorStyle (61)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module Messaging (60)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (59)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (58)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module XAudio2 (57)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module Core (55)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (52)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (51)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (50)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module PropertyEditor (49)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module AssetRegistry (47)
-[2016.12.05-07.22.13:072][ 25]LogModuleManager: Shutting down and abandoning module DerivedDataCache (46)
-[2016.12.05-07.22.13:369][ 25]LogDerivedDataCache: Shutdown
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (45)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (44)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (43)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (42)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (41)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (40)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (39)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (38)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module ImageWrapper (37)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (36)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (31)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (30)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (29)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (28)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module TargetPlatform (27)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module InputCore (26)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module Settings (25)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module OculusRift (24)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (23)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (22)
-[2016.12.05-07.22.13:369][ 25]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2016.12.05-07.22.13:369][ 25]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2016.12.05-07.22.13:414][ 25]LogOnline:Display: Unloading online subsystem: STEAM
-[2016.12.05-07.22.13:414][ 25]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2016.12.05-07.22.13:414][ 25]LogOnline:Display: Unloading online subsystem: NULL
-[2016.12.05-07.22.13:414][ 25]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2016.12.05-07.22.13:415][ 25]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2016.12.05-07.22.13:415][ 25]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2016.12.05-07.22.13:415][ 25]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.12.05-07.22.13:416][ 25]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.12.05-07.22.13:417][ 25]LogExit: Exiting.
-[2016.12.05-07.22.13:418][ 25]Log file closed, 12/05/16 02:22:13
+[2016.12.07-07.58.07:234][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.07-07.58.07:234][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.07-07.58.07:239][  0]LogInit: Computer: WEAK
+[2016.12.07-07.58.07:239][  0]LogInit: User: WhisperedLullaby
+[2016.12.07-07.58.07:239][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.07-07.58.07:239][  0]LogInit: High frequency timer resolution =3.117186 MHz
+[2016.12.07-07.58.07:239][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.07-07.58.07:239][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.07-07.58.07:239][  0]LogMemory: Process Physical Memory: 301.45 MB used, 301.45 MB peak
+[2016.12.07-07.58.07:239][  0]LogMemory: Process Virtual Memory: 280.45 MB used, 280.45 MB peak
+[2016.12.07-07.58.07:239][  0]LogMemory: Physical Memory: 8437.42 MB used,  7893.47 MB free, 16330.89 MB total
+[2016.12.07-07.58.07:239][  0]LogMemory: Virtual Memory: 769.32 MB used,  7893.47 MB free, 134217728.00 MB total
+[2016.12.07-07.58.07:267][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.07-07.58.07:751][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.07-07.58.07:777][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 480 Graphics' (Feature Level 11_0)
+[2016.12.07-07.58.07:777][  0]LogD3D11RHI:       8140/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.12.07-07.58.07:778][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.07-07.58.07:778][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.07-07.58.07:778][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.07-07.58.07:787][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.07-07.58.07:787][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2016.12.07-07.58.07:787][  0]LogWindows: EnumDisplayDevices:
+[2016.12.07-07.58.07:787][  0]LogWindows:    0. 'Radeon (TM) RX 480 Graphics' (P:1 D:1)
+[2016.12.07-07.58.07:788][  0]LogWindows:    1. 'Radeon (TM) RX 480 Graphics' (P:0 D:1)
+[2016.12.07-07.58.07:788][  0]LogWindows:    2. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.12.07-07.58.07:788][  0]LogWindows:    3. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.12.07-07.58.07:788][  0]LogWindows:    4. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.12.07-07.58.07:788][  0]LogWindows:    5. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
+[2016.12.07-07.58.07:789][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.12.07-07.58.07:789][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 480 Graphics
+[2016.12.07-07.58.07:789][  0]LogD3D11RHI:   Driver Version: Crimson 16.9.2 (internal:21.19.137.1, unified:21.19.137.1)
+[2016.12.07-07.58.07:789][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.12.07-07.58.07:789][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.07-07.58.07:805][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.07-07.58.07:816][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2016.12.07-07.58.07:816][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Intermediate/Shaders/WorkingDirectory/10392/).
+[2016.12.07-07.58.07:817][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/WhisperedLullaby/AppData/Local/Temp/UnrealShaderWorkingDir/C5CCDEAE41F8DF43592D989749BA6CEC/'.
+[2016.12.07-07.58.07:817][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.07-07.58.08:858][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.07-07.58.08:913][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.07-07.58.08:970][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.07-07.58.09:017][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.07-07.58.09:017][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.07-07.58.09:460][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.07-07.58.09:511][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.12.07-07.58.09:511][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.12.07-07.58.09:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.07-07.58.09:511][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.07-07.58.09:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.07-07.58.09:511][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.07-07.58.09:526][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.07-07.58.09:538][  0]LogDerivedDataCache: Using Local data cache path C:/Users/WhisperedLullaby/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.07-07.58.09:797][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2016.12.07-07.58.09:805][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.008326 seconds
+[2016.12.07-07.58.09:821][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.07-07.58.09:822][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2016.12.07-07.58.10:026][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.12.07-07.58.10:072][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.12.07-07.58.10:123][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.12.07-07.58.10:123][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.12.07-07.58.10:123][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.07-07.58.10:549][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: nailbound, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3761550360
+[2016.12.07-07.58.11:406][  0]LogSlate: Using Freetype 2.6.0
+[2016.12.07-07.58.11:406][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.07-07.58.11:406][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.07-07.58.11:526][  0]LogMoviePlayer: Initializing movie player
+[2016.12.07-07.58.11:592][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.07-07.58.11:621][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Movies/Default_Startup.mp4
+[2016.12.07-07.58.11:798][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.07-07.58.11:836][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.07-07.58.11:978][  0]SourceControl: Info Source control is disabled
+[2016.12.07-07.58.11:978][  0]SourceControl: Info Source control is disabled
+[2016.12.07-07.58.12:024][  0]SourceControl: Info Source control is disabled
+[2016.12.07-07.58.12:715][  0]LogUObjectArray: 33503 objects as part of root set at end of initial load.
+[2016.12.07-07.58.12:715][  0]LogUObjectAllocator: 7631608 out of 0 bytes used by permanent object pool.
+[2016.12.07-07.58.12:715][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.07-07.58.12:817][  0]LogEngine: Initializing Engine...
+[2016.12.07-07.58.12:817][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.07-07.58.12:939][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.07-07.58.12:948][  0]LogInit: FAudioDevice initialized.
+[2016.12.07-07.58.12:964][  0]LogInit: Texture streaming: Enabled
+[2016.12.07-07.58.12:975][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.07-07.58.13:517][  0]LogInit:Display: Game Engine Initialized.
+[2016.12.07-07.58.13:678][  0]LogInit:Display: Starting Game.
+[2016.12.07-07.58.13:678][  0]LogNet: Browse: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMainMenu2?Name=Player
+[2016.12.07-07.58.13:678][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMainMenu2?Name=Player
+[2016.12.07-07.58.13:699][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.07-07.58.13:699][  0]LogMemory: Process Physical Memory: 683.50 MB used, 684.86 MB peak
+[2016.12.07-07.58.13:699][  0]LogMemory: Process Virtual Memory: 778.25 MB used, 778.26 MB peak
+[2016.12.07-07.58.13:699][  0]LogMemory: Physical Memory: 8768.36 MB used,  7562.53 MB free, 16330.89 MB total
+[2016.12.07-07.58.13:699][  0]LogMemory: Virtual Memory: 1473.98 MB used,  7562.53 MB free, 134217728.00 MB total
+[2016.12.07-07.58.13:699][  0]LogMemory: 
+[2016.12.07-07.58.13:699][  0]Allocator Stats for TBB: (not implemented)
+[2016.12.07-07.58.13:896][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.12.07-07.58.13:896][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
+[2016.12.07-07.58.13:896][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.12.07-07.58.13:896][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.12.07-07.58.13:896][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
+[2016.12.07-07.58.13:896][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.12.07-07.58.13:926][  0]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.12.07-07.58.13:926][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
+[2016.12.07-07.58.13:926][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.12.07-07.58.13:926][  0]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.12.07-07.58.13:926][  0]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
+[2016.12.07-07.58.13:926][  0]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.12.07-07.58.14:217][  0]LogAIModule: Creating AISystem for world MainMenu2
+[2016.12.07-07.58.14:217][  0]LogLoad: Game class is 'GameplayGM_C'
+[2016.12.07-07.58.14:219][  0]LogWorld: Bringing World /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMainMenu2.MainMenu2 up for play (max tick rate 0) at 2016.12.07-02.58.14
+[2016.12.07-07.58.14:219][  0]LogWorld: Bringing up level for play took: 0.000547
+[2016.12.07-07.58.14:224][  0]LogLoad: Took 0.545226 seconds to LoadMap(/Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMainMenu2)
+[2016.12.07-07.58.14:577][  0]LogLoad: (Engine Initialization) Total time: 9.26 seconds
+[2016.12.07-07.58.14:577][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.27 seconds
+[2016.12.07-07.58.14:577][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.07-07.58.14:577][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.07-07.58.14:594][  0]LogOcInput: OculusInput pre-init called
+[2016.12.07-07.58.14:699][  2]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
+[2016.12.07-07.58.21:847][442]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: nailbound, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 73830662
+[2016.12.07-07.58.21:850][442]LogInit: WinSock: I am Weak (192.168.2.2:0)
+[2016.12.07-07.58.22:122][442]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Lobby.umap.
+[2016.12.07-07.58.22:181][442]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve Lobby.umap.
+[2016.12.07-07.58.22:181][442]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Lobby?listen
+[2016.12.07-07.58.22:181][442]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Lobby?listen
+[2016.12.07-07.58.22:211][442]LogMemory: Platform Memory Stats for Windows
+[2016.12.07-07.58.22:211][442]LogMemory: Process Physical Memory: 828.36 MB used, 869.32 MB peak
+[2016.12.07-07.58.22:211][442]LogMemory: Process Virtual Memory: 1200.81 MB used, 1200.81 MB peak
+[2016.12.07-07.58.22:211][442]LogMemory: Physical Memory: 8887.32 MB used,  7443.57 MB free, 16330.89 MB total
+[2016.12.07-07.58.22:211][442]LogMemory: Virtual Memory: 1905.09 MB used,  7443.57 MB free, 134217728.00 MB total
+[2016.12.07-07.58.22:211][442]LogMemory: 
+[2016.12.07-07.58.22:211][442]Allocator Stats for TBB: (not implemented)
+[2016.12.07-07.58.22:669][442]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.12.07-07.58.22:669][442]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
+[2016.12.07-07.58.22:669][442]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.12.07-07.58.22:669][442]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.12.07-07.58.22:669][442]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by rotator_Sprite
+[2016.12.07-07.58.22:669][442]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.12.07-07.58.22:691][442]LogLinker:Warning: Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.12.07-07.58.22:691][442]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
+[2016.12.07-07.58.22:691][442]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file '/Paper2D/TranslucentUnlitSpriteMaterial'
+[2016.12.07-07.58.22:691][442]LogLinker:Warning: Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.12.07-07.58.22:691][442]LoadErrors: Info Failed to load /Paper2D/TranslucentUnlitSpriteMaterial.TranslucentUnlitSpriteMaterial Referenced by ultimate_Sprite
+[2016.12.07-07.58.22:692][442]LogUObjectGlobals:Warning: Failed to load '/Paper2D/TranslucentUnlitSpriteMaterial': Can't find file for asset '/Paper2D/TranslucentUnlitSpriteMaterial' while loading NULL.
+[2016.12.07-07.58.22:924][442]LogAIModule: Creating AISystem for world Lobby
+[2016.12.07-07.58.22:925][442]LogLoad: Game class is 'LobbyGM_C'
+[2016.12.07-07.58.22:925][442]LogNet:Display: SteamNetDriver_0 bound to port 7777
+[2016.12.07-07.58.22:925][442]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.12.07-07.58.22:925][442]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2016.12.07-07.58.22:927][442]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Lobby.Lobby up for play (max tick rate 0) at 2016.12.07-02.58.22
+[2016.12.07-07.58.22:927][442]LogWorld: Bringing up level for play took: 0.001474
+[2016.12.07-07.58.22:928][442]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.07-07.58.22:937][442]LogLoad: Took 0.755187 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/Lobby)
+[2016.12.07-07.59.06:036][100]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.07-07.59.06:041][100]LogEngine: All Windows Closed
+[2016.12.07-07.59.06:041][100]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.12.07-07.59.06:042][101]LogMoviePlayer: Shutting down movie player
+[2016.12.07-07.59.06:828][101]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2016.12.07-07.59.06:828][101]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2016.12.07-07.59.06:828][101]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2016.12.07-07.59.06:830][101]LogExit: Preparing to exit.
+[2016.12.07-07.59.07:984][101]LogExit: Game engine shut down
+[2016.12.07-07.59.08:050][101]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.07-07.59.08:050][101]LogExit: Object subsystem successfully closed.
+[2016.12.07-07.59.08:066][101]LogD3D11RHI: Shutdown
+[2016.12.07-07.59.08:066][101]LogD3D11RHI: CleanupD3DDevice
+[2016.12.07-07.59.08:135][101]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (126)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module SequenceRecorder (125)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module AutomationWorker (123)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module GameplayDebugger (122)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module AITestSuite (121)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module AIModule (120)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (119)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (118)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module Media (117)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (116)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module CharacterAI (115)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module SessionServices (114)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (113)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (112)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module GeometryCache (111)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module Niagara (110)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module PortalServices (108)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module PortalRpc (107)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module MessagingRpc (106)
+[2016.12.07-07.59.08:155][101]LogModuleManager: Shutting down and abandoning module ProfilerService (105)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module TaskGraph (104)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module SlateRemote (103)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module SteamVRController (102)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module SteamVR (101)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (100)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module OculusLibrary (99)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module OculusInput (98)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (97)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (94)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module HTML5Networking (92)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module DesktopPlatform (91)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module HotReload (89)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2016.12.07-07.59.08:327][101]LogModuleManager: Shutting down and abandoning module UdpMessaging (83)
+[2016.12.07-07.59.08:428][101]LogModuleManager: Shutting down and abandoning module TcpMessaging (82)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (81)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module Paper2D (80)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (79)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module WmfMedia (78)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module MediaAssets (77)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (76)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (75)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module VREditor (74)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (73)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module Sequencer (69)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (68)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module MessageLog (67)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module SlateReflector (63)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module Slate (62)
+[2016.12.07-07.59.08:809][101]LogModuleManager: Shutting down and abandoning module EditorStyle (61)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module Messaging (60)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (59)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (58)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module XAudio2 (57)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module Core (55)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (52)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (51)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (50)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module PropertyEditor (49)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module AssetRegistry (47)
+[2016.12.07-07.59.08:811][101]LogModuleManager: Shutting down and abandoning module DerivedDataCache (46)
+[2016.12.07-07.59.09:069][101]LogDerivedDataCache: Shutdown
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (45)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (44)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (43)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (42)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (41)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (40)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (39)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (38)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module ImageWrapper (37)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (36)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (31)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (30)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (29)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (28)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module TargetPlatform (27)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module InputCore (26)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module Settings (25)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module OculusRift (24)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (23)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (22)
+[2016.12.07-07.59.09:069][101]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.12.07-07.59.09:069][101]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2016.12.07-07.59.09:093][101]LogOnline:Display: Unloading online subsystem: STEAM
+[2016.12.07-07.59.09:093][101]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2016.12.07-07.59.09:093][101]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.07-07.59.09:093][101]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2016.12.07-07.59.09:094][101]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.07-07.59.09:094][101]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.07-07.59.09:094][101]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.07-07.59.09:094][101]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.07-07.59.09:094][101]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.07-07.59.09:094][101]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.07-07.59.09:095][101]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.07-07.59.09:095][101]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.07-07.59.09:095][101]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.07-07.59.09:095][101]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.07-07.59.09:095][101]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.07-07.59.09:095][101]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.07-07.59.09:095][101]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.07-07.59.09:095][101]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.07-07.59.09:095][101]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.07-07.59.09:095][101]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.07-07.59.09:096][101]LogExit: Exiting.
+[2016.12.07-07.59.09:097][101]Log file closed, 12/07/16 02:59:09
