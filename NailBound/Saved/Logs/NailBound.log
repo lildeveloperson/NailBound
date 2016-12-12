@@ -7660,3 +7660,341 @@ LogInit: Object subsystem initialized
 [2016.12.11-11.31.16:826][548]SourceControl: Info  rewrite NailBound/Content/LobbyUI/CharacterSelect.uasset (74%)
 [2016.12.11-11.31.16:826][548]SourceControl: Info  rewrite NailBound/Content/LobbyUI/ConnectedPlayer.uasset (63%)
 [2016.12.11-11.31.16:826][548]SourceControl: Info  rewrite NailBound/Content/MainMenuUI/MainMenu2.uasset (73%)
+[2016.12.11-11.31.16:837][548]SourceControl: Info Commited [master 00c56a7] Added Sate Character to the game. Added Character select to training mode pause menu..
+[2016.12.11-18.27.39:308][641]LogAIModule: Creating AISystem for world MainMenu2
+[2016.12.11-18.27.39:347][641]Cmd: MAP LOAD FILE="../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Maps/MainMenu2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.11-18.27.39:348][641]LightingResults: New page: Lighting Build
+[2016.12.11-18.27.39:348][641]LoadErrors: New page: Loading map: MainMenu2.umap
+[2016.12.11-18.27.39:405][641]MapCheck: New page: Map Check
+[2016.12.11-18.27.39:405][641]LightingResults: New page: Lighting Build
+[2016.12.11-18.27.39:554][641]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.11-18.27.39:588][641]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.11-18.27.39:647][641]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.054ms to complete.
+[2016.12.11-18.27.39:647][641]LogFileHelpers: Loading map 'MainMenu2' took 0.309
+[2016.12.11-18.27.43:946][151]LogTemp: Repeting last play command: Standalone Game
+[2016.12.11-18.27.44:277][151]LogSavePackage: Save=161.55ms
+[2016.12.11-18.27.44:277][151]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/UEDPCMainMenu2171A756642070B65F24105921F3A058E.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMainMenu2.umap'
+[2016.12.11-18.27.44:279][151]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMainMenu2.umap
+[2016.12.11-18.27.44:283][151]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.11-18.31.59:713][263]LogAIModule: Creating AISystem for world Arena_01
+[2016.12.11-18.31.59:983][263]Cmd: MAP LOAD FILE="../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Maps/Arena_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.11-18.31.59:983][263]LightingResults: New page: Lighting Build
+[2016.12.11-18.31.59:984][263]LoadErrors: New page: Loading map: Arena_01.umap
+[2016.12.11-18.31.59:984][263]MapCheck: New page: Map Check
+[2016.12.11-18.31.59:984][263]LightingResults: New page: Lighting Build
+[2016.12.11-18.32.00:425][263]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.11-18.32.00:458][263]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.11-18.32.00:514][263]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.31ms to complete.
+[2016.12.11-18.32.00:515][263]LogFileHelpers: Loading map 'Arena_01' took 0.533
+[2016.12.11-18.32.04:253][530]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.11-18.32.09:990][907]LogSavePackage: Save=7.32ms
+[2016.12.11-18.32.09:990][907]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/InGameGM79AC9339448F8AE2812E5F9CEDC7F4EA.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Lobby/InGameGM.uasset'
+[2016.12.11-18.32.09:994][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Lobby/InGameGM.uasset
+[2016.12.11-18.32.12:155][ 65]LogTemp: Repeting last play command: Standalone Game
+[2016.12.11-18.32.13:042][ 65]LogSavePackage: Save=717.70ms
+[2016.12.11-18.32.13:042][ 65]LogSavePackage: Moving '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/UEDPCArena_015EEC725D4ACE965652A1B3BEAB1171C8.tmp' to '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCArena_01.umap'
+[2016.12.11-18.32.13:045][ 65]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCArena_01.umap
+[2016.12.11-18.32.13:049][ 65]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.11-18.33.33:077][882]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.14/Engine/Content/: 'C:/Program Files (x86)/Epic Games/4.14/Engine/Content/' is outside repository
+[2016.12.11-18.33.33:167][882]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/NailBound.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2016.12.11-18.33.39:762][ 36]LogAIModule: Creating AISystem for world mainMenuMap
+[2016.12.11-18.33.39:790][ 36]Cmd: MAP LOAD FILE="../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Maps/mainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.11-18.33.39:791][ 36]LightingResults: New page: Lighting Build
+[2016.12.11-18.33.39:791][ 36]LoadErrors: New page: Loading map: mainMenuMap.umap
+[2016.12.11-18.33.39:798][ 36]MapCheck: New page: Map Check
+[2016.12.11-18.33.39:798][ 36]LightingResults: New page: Lighting Build
+[2016.12.11-18.33.39:879][ 36]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.11-18.33.39:918][ 36]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.11-18.33.39:975][ 36]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.191ms to complete.
+[2016.12.11-18.33.39:976][ 36]LogFileHelpers: Loading map 'mainMenuMap' took 0.186
+[2016.12.11-18.33.42:469][326]LogAIModule: Creating AISystem for world MainMenu2
+[2016.12.11-18.33.42:496][326]Cmd: MAP LOAD FILE="../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/2DSideScrollerBP/Maps/MainMenu2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.11-18.33.42:496][326]LightingResults: New page: Lighting Build
+[2016.12.11-18.33.42:496][326]LoadErrors: New page: Loading map: MainMenu2.umap
+[2016.12.11-18.33.42:497][326]MapCheck: New page: Map Check
+[2016.12.11-18.33.42:497][326]LightingResults: New page: Lighting Build
+[2016.12.11-18.33.42:594][326]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.11-18.33.42:625][326]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.11-18.33.42:678][326]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.584ms to complete.
+[2016.12.11-18.33.42:678][326]LogFileHelpers: Loading map 'MainMenu2' took 0.183
+[2016.12.11-18.33.46:497][773]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.14/Engine/Content/: 'C:/Program Files (x86)/Epic Games/4.14/Engine/Content/' is outside repository
+[2016.12.11-18.33.46:577][773]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/NailBound.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2016.12.11-18.33.55:728][773]LogSourceControl: FGitCheckInWorker: commit successful
+[2016.12.11-18.33.55:801][773]SourceControl: Info [master 89e440a] MinorBug FIxes
+[2016.12.11-18.33.55:801][773]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2016.12.11-18.33.55:813][773]SourceControl: Info Commited [master 89e440a] MinorBug FIxes.
+[2016.12.12-03.55.45:566][285]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.14/Engine/Content/: 'C:/Program Files (x86)/Epic Games/4.14/Engine/Content/' is outside repository
+[2016.12.12-03.55.45:723][285]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/NailBound.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2016.12.12-03.55.59:796][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.12.12-03.56.00:006][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.12.12-03.56.00:120][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.12.12-03.56.00:710][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.12.12-03.56.01:763][493]Cmd: QUIT_EDITOR
+[2016.12.12-03.56.02:732][493]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.12-03.56.02:878][493]LogExit: Preparing to exit.
+[2016.12.12-03.56.03:341][493]LogDirectoryWatcher: A directory notification for 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/' was aborted.
+[2016.12.12-03.56.03:543][493]LogExit: Editor shut down
+[2016.12.12-03.56.03:544][493]LogExit: Transaction tracking system shut down
+[2016.12.12-03.56.04:314][493]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.12-03.56.04:324][493]LogExit: Object subsystem successfully closed.
+[2016.12.12-03.56.04:378][493]LogD3D11RHI: Shutdown
+[2016.12.12-03.56.04:378][493]LogD3D11RHI: CleanupD3DDevice
+[2016.12.12-03.56.04:777][493]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.12-03.56.04:817][493]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.12.12-03.56.04:817][493]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93EE3C7C-412E-8339-6095-2F9DA6C09E4D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.0-3195953%2B%2B%2BUE4%2BRelease-4.14&UserID=2b45417b4a2c40e7267d17b8c9f80d65%7C621a8bdf413a4e2cbc370117c7a08d5b%7C72925a16-b029-43c8-86c0-a45ec1092b03&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.12.12-03.56.04:848][493]LogModuleManager: Shutting down and abandoning module SequencerWidgets (248)
+[2016.12.12-03.56.04:848][493]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (246)
+[2016.12.12-03.56.04:848][493]LogModuleManager: Shutting down and abandoning module Voice (245)
+[2016.12.12-03.56.04:849][493]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2016.12.12-03.56.04:849][493]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2016.12.12-03.56.04:850][493]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2016.12.12-03.56.04:850][493]LogModuleManager: Shutting down and abandoning module CrashTracker (241)
+[2016.12.12-03.56.04:850][493]LogModuleManager: Shutting down and abandoning module SceneOutliner (240)
+[2016.12.12-03.56.04:850][493]LogModuleManager: Shutting down and abandoning module WidgetCarousel (239)
+[2016.12.12-03.56.04:850][493]LogModuleManager: Shutting down and abandoning module AddContentDialog (238)
+[2016.12.12-03.56.04:851][493]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2016.12.12-03.56.04:863][493]LogModuleManager: Shutting down and abandoning module GameplayTags (237)
+[2016.12.12-03.56.04:863][493]LogModuleManager: Shutting down and abandoning module EditorWidgets (236)
+[2016.12.12-03.56.04:863][493]LogModuleManager: Shutting down and abandoning module CollectionManager (235)
+[2016.12.12-03.56.04:864][493]LogDirectoryWatcher: A directory notification for 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Collections/' was aborted.
+[2016.12.12-03.56.04:864][493]LogDirectoryWatcher: A directory notification for 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/Developers/WhisperedLullaby/Collections/' was aborted.
+[2016.12.12-03.56.04:864][493]LogDirectoryWatcher: A directory notification for 'C:/Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Saved/Collections/' was aborted.
+[2016.12.12-03.56.04:864][493]LogModuleManager: Shutting down and abandoning module StatsViewer (234)
+[2016.12.12-03.56.04:865][493]LogModuleManager: Shutting down and abandoning module FoliageEdit (233)
+[2016.12.12-03.56.04:865][493]LogModuleManager: Shutting down and abandoning module LandscapeEditor (232)
+[2016.12.12-03.56.04:866][493]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (231)
+[2016.12.12-03.56.04:866][493]LogModuleManager: Shutting down and abandoning module ActorPickerMode (230)
+[2016.12.12-03.56.04:866][493]LogModuleManager: Shutting down and abandoning module GeometryMode (229)
+[2016.12.12-03.56.04:866][493]LogModuleManager: Shutting down and abandoning module TextureAlignMode (228)
+[2016.12.12-03.56.04:866][493]LogModuleManager: Shutting down and abandoning module BspMode (227)
+[2016.12.12-03.56.04:866][493]LogModuleManager: Shutting down and abandoning module HardwareSurvey (226)
+[2016.12.12-03.56.04:867][493]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (225)
+[2016.12.12-03.56.04:867][493]LogModuleManager: Shutting down and abandoning module AutomationWorker (224)
+[2016.12.12-03.56.04:867][493]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (223)
+[2016.12.12-03.56.04:868][493]LogModuleManager: Shutting down and abandoning module PlacementMode (222)
+[2016.12.12-03.56.04:868][493]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (221)
+[2016.12.12-03.56.04:869][493]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (220)
+[2016.12.12-03.56.04:869][493]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (219)
+[2016.12.12-03.56.04:869][493]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (218)
+[2016.12.12-03.56.04:869][493]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (217)
+[2016.12.12-03.56.04:869][493]LogModuleManager: Shutting down and abandoning module Media (216)
+[2016.12.12-03.56.04:869][493]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (215)
+[2016.12.12-03.56.04:869][493]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (214)
+[2016.12.12-03.56.04:869][493]LogModuleManager: Shutting down and abandoning module CharacterAI (213)
+[2016.12.12-03.56.04:869][493]LogModuleManager: Shutting down and abandoning module SequenceRecorder (212)
+[2016.12.12-03.56.04:876][493]LogModuleManager: Shutting down and abandoning module AudioCapture (211)
+[2016.12.12-03.56.04:876][493]LogModuleManager: Shutting down and abandoning module SmartSnapping (210)
+[2016.12.12-03.56.04:876][493]LogModuleManager: Shutting down and abandoning module SessionServices (209)
+[2016.12.12-03.56.04:876][493]LogModuleManager: Shutting down and abandoning module ViewportSnapping (208)
+[2016.12.12-03.56.04:876][493]LogModuleManager: Shutting down and abandoning module ViewportInteraction (207)
+[2016.12.12-03.56.04:876][493]LogModuleManager: Shutting down and abandoning module LogVisualizer (206)
+[2016.12.12-03.56.04:879][493]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (205)
+[2016.12.12-03.56.04:880][493]LogModuleManager: Shutting down and abandoning module IntroTutorials (204)
+[2016.12.12-03.56.04:881][493]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (203)
+[2016.12.12-03.56.04:881][493]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (202)
+[2016.12.12-03.56.04:882][493]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (201)
+[2016.12.12-03.56.04:890][493]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (200)
+[2016.12.12-03.56.05:724][493]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (199)
+[2016.12.12-03.56.05:724][493]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (198)
+[2016.12.12-03.56.05:724][493]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (197)
+[2016.12.12-03.56.05:724][493]LogModuleManager: Shutting down and abandoning module InputBindingEditor (196)
+[2016.12.12-03.56.05:724][493]LogModuleManager: Shutting down and abandoning module NiagaraEditor (195)
+[2016.12.12-03.56.05:725][493]LogModuleManager: Shutting down and abandoning module MergeActors (194)
+[2016.12.12-03.56.05:726][493]LogModuleManager: Shutting down and abandoning module SizeMap (193)
+[2016.12.12-03.56.05:726][493]LogModuleManager: Shutting down and abandoning module TreeMap (192)
+[2016.12.12-03.56.05:726][493]LogModuleManager: Shutting down and abandoning module ReferenceViewer (191)
+[2016.12.12-03.56.05:726][493]LogModuleManager: Shutting down and abandoning module LocalizationService (190)
+[2016.12.12-03.56.05:726][493]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (189)
+[2016.12.12-03.56.05:728][493]LogModuleManager: Shutting down and abandoning module HardwareTargeting (188)
+[2016.12.12-03.56.05:729][493]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (187)
+[2016.12.12-03.56.05:729][493]LogModuleManager: Shutting down and abandoning module UndoHistory (186)
+[2016.12.12-03.56.05:729][493]LogModuleManager: Shutting down and abandoning module UserFeedback (185)
+[2016.12.12-03.56.05:729][493]LogModuleManager: Shutting down and abandoning module XmlParser (184)
+[2016.12.12-03.56.05:730][493]LogModuleManager: Shutting down and abandoning module Blutility (183)
+[2016.12.12-03.56.05:730][493]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (182)
+[2016.12.12-03.56.05:730][493]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (181)
+[2016.12.12-03.56.05:730][493]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (180)
+[2016.12.12-03.56.05:730][493]LogModuleManager: Shutting down and abandoning module SettingsEditor (179)
+[2016.12.12-03.56.05:731][493]LogModuleManager: Shutting down and abandoning module ProjectLauncher (178)
+[2016.12.12-03.56.05:732][493]LogModuleManager: Shutting down and abandoning module SessionFrontend (177)
+[2016.12.12-03.56.05:732][493]LogModuleManager: Shutting down and abandoning module ProfilerClient (176)
+[2016.12.12-03.56.05:733][493]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (175)
+[2016.12.12-03.56.05:733][493]LogModuleManager: Shutting down and abandoning module DeviceManager (174)
+[2016.12.12-03.56.05:786][493]LogModuleManager: Shutting down and abandoning module AutomationController (173)
+[2016.12.12-03.56.05:787][493]LogModuleManager: Shutting down and abandoning module AutomationWindow (172)
+[2016.12.12-03.56.05:788][493]LogModuleManager: Shutting down and abandoning module Layers (171)
+[2016.12.12-03.56.05:794][493]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (170)
+[2016.12.12-03.56.05:794][493]LogModuleManager: Shutting down and abandoning module DetailCustomizations (169)
+[2016.12.12-03.56.05:794][493]LogModuleManager: Shutting down and abandoning module PackagesDialog (168)
+[2016.12.12-03.56.05:795][493]LogModuleManager: Shutting down and abandoning module AnimGraph (167)
+[2016.12.12-03.56.05:795][493]LogModuleManager: Shutting down and abandoning module Persona (166)
+[2016.12.12-03.56.05:795][493]LogModuleManager: Shutting down and abandoning module Kismet (165)
+[2016.12.12-03.56.05:810][493]LogModuleManager: Shutting down and abandoning module GraphEditor (164)
+[2016.12.12-03.56.05:810][493]LogModuleManager: Shutting down and abandoning module ClassViewer (163)
+[2016.12.12-03.56.05:814][493]LogModuleManager: Shutting down and abandoning module Toolbox (162)
+[2016.12.12-03.56.05:814][493]LogModuleManager: Shutting down and abandoning module ModuleUI (161)
+[2016.12.12-03.56.05:815][493]LogModuleManager: Shutting down and abandoning module MovieSceneTools (160)
+[2016.12.12-03.56.05:815][493]LogModuleManager: Shutting down and abandoning module OutputLog (159)
+[2016.12.12-03.56.05:816][493]LogModuleManager: Shutting down and abandoning module GammaUI (158)
+[2016.12.12-03.56.05:816][493]LogModuleManager: Shutting down and abandoning module Documentation (157)
+[2016.12.12-03.56.05:819][493]LogModuleManager: Shutting down and abandoning module Niagara (156)
+[2016.12.12-03.56.05:819][493]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (155)
+[2016.12.12-03.56.05:819][493]LogModuleManager: Shutting down and abandoning module AnalyticsET (154)
+[2016.12.12-03.56.05:819][493]LogModuleManager: Shutting down and abandoning module PortalServices (153)
+[2016.12.12-03.56.05:819][493]LogModuleManager: Shutting down and abandoning module PortalRpc (152)
+[2016.12.12-03.56.05:819][493]LogModuleManager: Shutting down and abandoning module MessagingRpc (151)
+[2016.12.12-03.56.05:819][493]LogModuleManager: Shutting down and abandoning module GameplayDebugger (150)
+[2016.12.12-03.56.05:819][493]LogModuleManager: Shutting down and abandoning module AITestSuite (149)
+[2016.12.12-03.56.05:820][493]LogModuleManager: Shutting down and abandoning module AIModule (148)
+[2016.12.12-03.56.05:820][493]LogModuleManager: Shutting down and abandoning module ProfilerService (147)
+[2016.12.12-03.56.05:883][493]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2016.12.12-03.56.05:883][493]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2016.12.12-03.56.05:883][493]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2016.12.12-03.56.05:883][493]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2016.12.12-03.56.05:883][493]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2016.12.12-03.56.05:884][493]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2016.12.12-03.56.05:884][493]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2016.12.12-03.56.05:884][493]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2016.12.12-03.56.05:884][493]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2016.12.12-03.56.05:884][493]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2016.12.12-03.56.05:884][493]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2016.12.12-03.56.05:884][493]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2016.12.12-03.56.05:884][493]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (134)
+[2016.12.12-03.56.05:886][493]LogModuleManager: Shutting down and abandoning module HTML5Networking (133)
+[2016.12.12-03.56.05:886][493]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (132)
+[2016.12.12-03.56.05:886][493]LogModuleManager: Shutting down and abandoning module GeometryCache (131)
+[2016.12.12-03.56.05:886][493]LogModuleManager: Shutting down and abandoning module AlembicLibrary (130)
+[2016.12.12-03.56.05:886][493]LogModuleManager: Shutting down and abandoning module AlembicImporter (129)
+[2016.12.12-03.56.05:886][493]LogModuleManager: Shutting down and abandoning module SuperSearch (128)
+[2016.12.12-03.56.05:887][493]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (127)
+[2016.12.12-03.56.05:887][493]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (126)
+[2016.12.12-03.56.05:887][493]LogModuleManager: Shutting down and abandoning module PluginBrowser (125)
+[2016.12.12-03.56.05:892][493]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (124)
+[2016.12.12-03.56.05:893][493]LogModuleManager: Shutting down and abandoning module EpicSurvey (123)
+[2016.12.12-03.56.05:893][493]LogModuleManager: Shutting down and abandoning module DesktopPlatform (122)
+[2016.12.12-03.56.05:893][493]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (121)
+[2016.12.12-03.56.05:894][493]LogModuleManager: Shutting down and abandoning module UObjectPlugin (120)
+[2016.12.12-03.56.05:894][493]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (119)
+[2016.12.12-03.56.05:894][493]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (118)
+[2016.12.12-03.56.05:895][493]LogModuleManager: Shutting down and abandoning module SourceControl (117)
+[2016.12.12-03.56.05:897][493]LogModuleManager: Shutting down and abandoning module GitSourceControl (116)
+[2016.12.12-03.56.05:897][493]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (115)
+[2016.12.12-03.56.05:897][493]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (114)
+[2016.12.12-03.56.05:898][493]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (113)
+[2016.12.12-03.56.05:898][493]LogModuleManager: Shutting down and abandoning module MeshPaint (112)
+[2016.12.12-03.56.05:898][493]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (111)
+[2016.12.12-03.56.05:898][493]LogModuleManager: Shutting down and abandoning module HotReload (110)
+[2016.12.12-03.56.05:899][493]LogModuleManager: Shutting down and abandoning module MainFrame (109)
+[2016.12.12-03.56.05:899][493]LogModuleManager: Shutting down and abandoning module LevelEditor (108)
+[2016.12.12-03.56.05:902][493]LogModuleManager: Shutting down and abandoning module ContentBrowser (107)
+[2016.12.12-03.56.05:904][493]LogModuleManager: Shutting down and abandoning module Paper2DEditor (106)
+[2016.12.12-03.56.05:904][493]LogModuleManager: Shutting down and abandoning module UdpMessaging (105)
+[2016.12.12-03.56.06:010][493]LogModuleManager: Shutting down and abandoning module TcpMessaging (104)
+[2016.12.12-03.56.06:111][493]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (103)
+[2016.12.12-03.56.06:111][493]LogModuleManager: Shutting down and abandoning module Paper2D (102)
+[2016.12.12-03.56.06:111][493]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (101)
+[2016.12.12-03.56.06:111][493]LogModuleManager: Shutting down and abandoning module WmfMedia (100)
+[2016.12.12-03.56.06:112][493]LogModuleManager: Shutting down and abandoning module MediaAssets (99)
+[2016.12.12-03.56.06:112][493]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (98)
+[2016.12.12-03.56.06:112][493]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (97)
+[2016.12.12-03.56.06:112][493]LogModuleManager: Shutting down and abandoning module VREditor (96)
+[2016.12.12-03.56.06:112][493]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (95)
+[2016.12.12-03.56.06:112][493]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (94)
+[2016.12.12-03.56.06:113][493]LogModuleManager: Shutting down and abandoning module FunctionalTesting (93)
+[2016.12.12-03.56.06:113][493]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (92)
+[2016.12.12-03.56.06:114][493]LogModuleManager: Shutting down and abandoning module Sequencer (91)
+[2016.12.12-03.56.06:114][493]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (90)
+[2016.12.12-03.56.06:114][493]LogModuleManager: Shutting down and abandoning module MessageLog (89)
+[2016.12.12-03.56.06:115][493]LogModuleManager: Shutting down and abandoning module AssetTools (88)
+[2016.12.12-03.56.06:117][493]LogModuleManager: Shutting down and abandoning module UMGEditor (87)
+[2016.12.12-03.56.06:117][493]LogModuleManager: Shutting down and abandoning module UMG (86)
+[2016.12.12-03.56.06:117][493]LogModuleManager: Shutting down and abandoning module SlateReflector (85)
+[2016.12.12-03.56.06:127][493]LogModuleManager: Shutting down and abandoning module Slate (84)
+[2016.12.12-03.56.06:127][493]LogModuleManager: Shutting down and abandoning module EditorStyle (83)
+[2016.12.12-03.56.06:132][493]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (82)
+[2016.12.12-03.56.06:132][493]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (81)
+[2016.12.12-03.56.06:132][493]LogModuleManager: Shutting down and abandoning module XAudio2 (80)
+[2016.12.12-03.56.06:132][493]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2016.12.12-03.56.06:132][493]LogModuleManager: Shutting down and abandoning module Core (78)
+[2016.12.12-03.56.06:132][493]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (77)
+[2016.12.12-03.56.06:132][493]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.12.12-03.56.06:133][493]LogDirectoryWatcher: A directory notification for '../../../../../../Users/WhisperedLullaby/Desktop/GameClone/NailBound/NailBound/Content/' was aborted.
+[2016.12.12-03.56.06:133][493]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.12.12-03.56.06:137][493]LogModuleManager: Shutting down and abandoning module AssetRegistry (76)
+[2016.12.12-03.56.06:366][493]LogModuleManager: Shutting down and abandoning module KismetCompiler (75)
+[2016.12.12-03.56.06:367][493]LogModuleManager: Shutting down and abandoning module PhysXFormats (74)
+[2016.12.12-03.56.06:367][493]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (73)
+[2016.12.12-03.56.06:367][493]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (72)
+[2016.12.12-03.56.06:368][493]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (71)
+[2016.12.12-03.56.06:368][493]LogModuleManager: Shutting down and abandoning module PropertyEditor (70)
+[2016.12.12-03.56.06:369][493]LogModuleManager: Shutting down and abandoning module MeshUtilities (69)
+[2016.12.12-03.56.06:370][493]LogModuleManager: Shutting down and abandoning module DerivedDataCache (68)
+[2016.12.12-03.56.06:378][493]LogDerivedDataCache: Shutdown
+[2016.12.12-03.56.06:378][493]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (67)
+[2016.12.12-03.56.06:379][493]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (66)
+[2016.12.12-03.56.06:380][493]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (65)
+[2016.12.12-03.56.06:380][493]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (64)
+[2016.12.12-03.56.06:380][493]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (63)
+[2016.12.12-03.56.06:381][493]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (62)
+[2016.12.12-03.56.06:381][493]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (61)
+[2016.12.12-03.56.06:381][493]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (60)
+[2016.12.12-03.56.06:381][493]LogModuleManager: Shutting down and abandoning module ImageWrapper (59)
+[2016.12.12-03.56.06:381][493]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (58)
+[2016.12.12-03.56.06:381][493]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (57)
+[2016.12.12-03.56.06:381][493]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (56)
+[2016.12.12-03.56.06:382][493]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (55)
+[2016.12.12-03.56.06:382][493]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (54)
+[2016.12.12-03.56.06:382][493]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (53)
+[2016.12.12-03.56.06:382][493]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (52)
+[2016.12.12-03.56.06:382][493]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (51)
+[2016.12.12-03.56.06:382][493]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (50)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (49)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module Messaging (48)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (47)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (46)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (45)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (44)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (43)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (42)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (41)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (40)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (39)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (38)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (37)
+[2016.12.12-03.56.06:383][493]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (36)
+[2016.12.12-03.56.06:384][493]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (35)
+[2016.12.12-03.56.06:384][493]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (34)
+[2016.12.12-03.56.06:384][493]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (33)
+[2016.12.12-03.56.06:384][493]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (32)
+[2016.12.12-03.56.06:384][493]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (31)
+[2016.12.12-03.56.06:384][493]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (30)
+[2016.12.12-03.56.06:384][493]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (29)
+[2016.12.12-03.56.06:384][493]LogModuleManager: Shutting down and abandoning module TargetPlatform (28)
+[2016.12.12-03.56.06:384][493]LogModuleManager: Shutting down and abandoning module InputCore (27)
+[2016.12.12-03.56.06:384][493]LogModuleManager: Shutting down and abandoning module Settings (26)
+[2016.12.12-03.56.06:385][493]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2016.12.12-03.56.06:385][493]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2016.12.12-03.56.06:385][493]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2016.12.12-03.56.06:385][493]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.12.12-03.56.06:385][493]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.12.12-03.56.06:385][493]LogOnline:Display: Unloading online subsystem: STEAM
+[2016.12.12-03.56.06:388][493]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.12-03.56.06:388][493]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2016.12.12-03.56.06:395][493]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.12-03.56.06:395][493]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.12-03.56.06:396][493]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.12-03.56.06:396][493]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.12-03.56.06:396][493]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.12-03.56.06:396][493]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.12-03.56.06:498][493]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.12-03.56.06:498][493]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.12-03.56.06:498][493]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.12-03.56.06:499][493]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.12-03.56.06:499][493]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.12-03.56.06:499][493]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.12-03.56.06:499][493]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.12-03.56.06:499][493]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.12-03.56.06:499][493]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.12-03.56.06:499][493]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.12-03.56.06:514][493]LogExit: Exiting.
+[2016.12.12-03.56.06:520][493]Log file closed, 12/11/16 22:56:06
